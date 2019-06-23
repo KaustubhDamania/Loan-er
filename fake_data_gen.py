@@ -34,7 +34,9 @@ def pan_generator(pan_name):
 for i in range(no_of_entries):
     name = random_name() # fake.name()
     pan = pan_generator(name)
+    yob = randint(1950,2000)
     dob = fake.date()
+    dob = str(yob) + dob[dob.index('-'):]
     pan_details = {
         'pan': pan,
         'name': name,
