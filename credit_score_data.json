@@ -1,0 +1,4004 @@
+{
+    "credit_score_data": [
+        {
+            "pan": "KRXHC0325R",
+            "credit_score": 865
+        },
+        {
+            "pan": "SWQHY9852S",
+            "credit_score": 454
+        },
+        {
+            "pan": "NTLAC3855W",
+            "credit_score": 633
+        },
+        {
+            "pan": "FQRAY7543J",
+            "credit_score": 586
+        },
+        {
+            "pan": "RZHHG7544Q",
+            "credit_score": 359
+        },
+        {
+            "pan": "YJVAB0842J",
+            "credit_score": 481
+        },
+        {
+            "pan": "CPTHH9503D",
+            "credit_score": 595
+        },
+        {
+            "pan": "NPHTP4380Z",
+            "credit_score": 649
+        },
+        {
+            "pan": "SMWAG6783L",
+            "credit_score": 554
+        },
+        {
+            "pan": "RSFAN0613W",
+            "credit_score": 709
+        },
+        {
+            "pan": "VSMAR7320O",
+            "credit_score": 567
+        },
+        {
+            "pan": "LJQTR1745R",
+            "credit_score": 708
+        },
+        {
+            "pan": "BIJCR0900G",
+            "credit_score": 325
+        },
+        {
+            "pan": "CXYCH3800S",
+            "credit_score": 798
+        },
+        {
+            "pan": "IPBTS1446G",
+            "credit_score": 452
+        },
+        {
+            "pan": "RHTAR3409G",
+            "credit_score": 724
+        },
+        {
+            "pan": "XYNPA7315I",
+            "credit_score": 598
+        },
+        {
+            "pan": "SRVAH0075T",
+            "credit_score": 489
+        },
+        {
+            "pan": "CPRPT2063K",
+            "credit_score": 585
+        },
+        {
+            "pan": "YHWPN5435R",
+            "credit_score": 422
+        },
+        {
+            "pan": "QMIPO5245W",
+            "credit_score": 313
+        },
+        {
+            "pan": "JSHPB0599N",
+            "credit_score": 345
+        },
+        {
+            "pan": "TWHFW6547I",
+            "credit_score": 635
+        },
+        {
+            "pan": "WQEPR2541X",
+            "credit_score": 882
+        },
+        {
+            "pan": "JTXTP4716X",
+            "credit_score": 544
+        },
+        {
+            "pan": "REIHM7272P",
+            "credit_score": 531
+        },
+        {
+            "pan": "QUDTM1910K",
+            "credit_score": 638
+        },
+        {
+            "pan": "CKMHV8563T",
+            "credit_score": 360
+        },
+        {
+            "pan": "PEOHP1380F",
+            "credit_score": 784
+        },
+        {
+            "pan": "ZHEPT2607J",
+            "credit_score": 653
+        },
+        {
+            "pan": "KQFCJ8049I",
+            "credit_score": 812
+        },
+        {
+            "pan": "QXTFC0386H",
+            "credit_score": 685
+        },
+        {
+            "pan": "VELAL8815L",
+            "credit_score": 484
+        },
+        {
+            "pan": "SPFCK5962Z",
+            "credit_score": 840
+        },
+        {
+            "pan": "MHZAM8972P",
+            "credit_score": 316
+        },
+        {
+            "pan": "UZIHC4173Q",
+            "credit_score": 610
+        },
+        {
+            "pan": "MIXHS8133F",
+            "credit_score": 537
+        },
+        {
+            "pan": "KLCPM4749U",
+            "credit_score": 528
+        },
+        {
+            "pan": "SVFTW4463U",
+            "credit_score": 644
+        },
+        {
+            "pan": "ZXHHV3477I",
+            "credit_score": 518
+        },
+        {
+            "pan": "UJOHC2779P",
+            "credit_score": 489
+        },
+        {
+            "pan": "AFLTB9999E",
+            "credit_score": 833
+        },
+        {
+            "pan": "LOKPM8985T",
+            "credit_score": 663
+        },
+        {
+            "pan": "XSWAF1695W",
+            "credit_score": 342
+        },
+        {
+            "pan": "CHWAH9550A",
+            "credit_score": 402
+        },
+        {
+            "pan": "LHSHR9975F",
+            "credit_score": 562
+        },
+        {
+            "pan": "XOQHP2500D",
+            "credit_score": 435
+        },
+        {
+            "pan": "VUWPB6354W",
+            "credit_score": 857
+        },
+        {
+            "pan": "QZPAD5080Y",
+            "credit_score": 664
+        },
+        {
+            "pan": "QASHP3656D",
+            "credit_score": 438
+        },
+        {
+            "pan": "WCSFH1071M",
+            "credit_score": 545
+        },
+        {
+            "pan": "GAKCS5369U",
+            "credit_score": 656
+        },
+        {
+            "pan": "PLDPH6142Y",
+            "credit_score": 883
+        },
+        {
+            "pan": "SATPB0662V",
+            "credit_score": 374
+        },
+        {
+            "pan": "SLWHM2998X",
+            "credit_score": 602
+        },
+        {
+            "pan": "DYIFB3621I",
+            "credit_score": 792
+        },
+        {
+            "pan": "CJKHB6105A",
+            "credit_score": 652
+        },
+        {
+            "pan": "GRKFJ7916X",
+            "credit_score": 485
+        },
+        {
+            "pan": "TYGTE8368T",
+            "credit_score": 445
+        },
+        {
+            "pan": "YFQFS9559X",
+            "credit_score": 435
+        },
+        {
+            "pan": "GOHFJ8818V",
+            "credit_score": 460
+        },
+        {
+            "pan": "TPTAW1942G",
+            "credit_score": 570
+        },
+        {
+            "pan": "SXSPG5943A",
+            "credit_score": 821
+        },
+        {
+            "pan": "PKOFP6404U",
+            "credit_score": 736
+        },
+        {
+            "pan": "MELFG6335H",
+            "credit_score": 731
+        },
+        {
+            "pan": "SDSTG1798X",
+            "credit_score": 423
+        },
+        {
+            "pan": "BDCCW9700W",
+            "credit_score": 392
+        },
+        {
+            "pan": "GHPTD4273Q",
+            "credit_score": 729
+        },
+        {
+            "pan": "NAGPD9652U",
+            "credit_score": 825
+        },
+        {
+            "pan": "YPVAR2015Y",
+            "credit_score": 314
+        },
+        {
+            "pan": "YLDPM1498H",
+            "credit_score": 408
+        },
+        {
+            "pan": "WLTAT4500I",
+            "credit_score": 797
+        },
+        {
+            "pan": "RHJCA7185D",
+            "credit_score": 348
+        },
+        {
+            "pan": "DFCAC0715K",
+            "credit_score": 353
+        },
+        {
+            "pan": "MFKCS3778M",
+            "credit_score": 358
+        },
+        {
+            "pan": "XRBHP2532P",
+            "credit_score": 413
+        },
+        {
+            "pan": "JIRHP4444U",
+            "credit_score": 762
+        },
+        {
+            "pan": "ETBFY1685S",
+            "credit_score": 606
+        },
+        {
+            "pan": "EUKTJ9248N",
+            "credit_score": 578
+        },
+        {
+            "pan": "URIPA5811R",
+            "credit_score": 831
+        },
+        {
+            "pan": "LKLPM9730Q",
+            "credit_score": 854
+        },
+        {
+            "pan": "CNTAC6390E",
+            "credit_score": 534
+        },
+        {
+            "pan": "QHXPC7715J",
+            "credit_score": 896
+        },
+        {
+            "pan": "OLOHM8156C",
+            "credit_score": 353
+        },
+        {
+            "pan": "MJYHH0274W",
+            "credit_score": 753
+        },
+        {
+            "pan": "LAWTJ2362M",
+            "credit_score": 835
+        },
+        {
+            "pan": "JVXAV7466Z",
+            "credit_score": 303
+        },
+        {
+            "pan": "FFWFA2021K",
+            "credit_score": 358
+        },
+        {
+            "pan": "SGOHE4256Y",
+            "credit_score": 549
+        },
+        {
+            "pan": "UPXFC3830D",
+            "credit_score": 495
+        },
+        {
+            "pan": "AXCHM7321P",
+            "credit_score": 531
+        },
+        {
+            "pan": "EANFG4732T",
+            "credit_score": 310
+        },
+        {
+            "pan": "ISTCP9972L",
+            "credit_score": 530
+        },
+        {
+            "pan": "UBVHH1614K",
+            "credit_score": 438
+        },
+        {
+            "pan": "TSFFS3947U",
+            "credit_score": 608
+        },
+        {
+            "pan": "CLTPM2921I",
+            "credit_score": 419
+        },
+        {
+            "pan": "FKAFJ0621A",
+            "credit_score": 337
+        },
+        {
+            "pan": "FTOTM4212L",
+            "credit_score": 835
+        },
+        {
+            "pan": "RFZAG1120Y",
+            "credit_score": 658
+        },
+        {
+            "pan": "PSITM6944Q",
+            "credit_score": 692
+        },
+        {
+            "pan": "NYKHJ4729E",
+            "credit_score": 693
+        },
+        {
+            "pan": "JPQTP0839E",
+            "credit_score": 406
+        },
+        {
+            "pan": "VTBAK2663B",
+            "credit_score": 664
+        },
+        {
+            "pan": "SMDPR4538A",
+            "credit_score": 407
+        },
+        {
+            "pan": "BIAPB4218C",
+            "credit_score": 496
+        },
+        {
+            "pan": "RZUFL6318A",
+            "credit_score": 609
+        },
+        {
+            "pan": "YPHAS7967O",
+            "credit_score": 706
+        },
+        {
+            "pan": "MBYHL1052D",
+            "credit_score": 462
+        },
+        {
+            "pan": "JPICM5241X",
+            "credit_score": 598
+        },
+        {
+            "pan": "XENTH7521O",
+            "credit_score": 495
+        },
+        {
+            "pan": "OQOHW3902K",
+            "credit_score": 447
+        },
+        {
+            "pan": "NUYFT0327M",
+            "credit_score": 375
+        },
+        {
+            "pan": "OLIPH0738K",
+            "credit_score": 815
+        },
+        {
+            "pan": "FFQTE4861C",
+            "credit_score": 460
+        },
+        {
+            "pan": "DFTTS1584D",
+            "credit_score": 442
+        },
+        {
+            "pan": "ENUPC4266G",
+            "credit_score": 502
+        },
+        {
+            "pan": "EXYCK6569I",
+            "credit_score": 761
+        },
+        {
+            "pan": "NZPPC5139J",
+            "credit_score": 528
+        },
+        {
+            "pan": "RQNAP1729W",
+            "credit_score": 577
+        },
+        {
+            "pan": "WCHFB2350J",
+            "credit_score": 441
+        },
+        {
+            "pan": "WKBPE0180X",
+            "credit_score": 486
+        },
+        {
+            "pan": "VYSAW8180T",
+            "credit_score": 322
+        },
+        {
+            "pan": "AWKFF5081D",
+            "credit_score": 489
+        },
+        {
+            "pan": "UUUCG5732A",
+            "credit_score": 740
+        },
+        {
+            "pan": "PPYFD5041H",
+            "credit_score": 626
+        },
+        {
+            "pan": "YPBPH2365T",
+            "credit_score": 501
+        },
+        {
+            "pan": "YBVPJ5202X",
+            "credit_score": 582
+        },
+        {
+            "pan": "OJTHB8572G",
+            "credit_score": 575
+        },
+        {
+            "pan": "TKKCM4460B",
+            "credit_score": 412
+        },
+        {
+            "pan": "FZXTD9931Y",
+            "credit_score": 777
+        },
+        {
+            "pan": "WCBFH5769A",
+            "credit_score": 858
+        },
+        {
+            "pan": "TIMCR9648C",
+            "credit_score": 899
+        },
+        {
+            "pan": "UCIPB0029P",
+            "credit_score": 838
+        },
+        {
+            "pan": "JRLTM4900W",
+            "credit_score": 511
+        },
+        {
+            "pan": "OGMAR6734E",
+            "credit_score": 656
+        },
+        {
+            "pan": "WKGAC3364F",
+            "credit_score": 515
+        },
+        {
+            "pan": "ORGTW5956O",
+            "credit_score": 499
+        },
+        {
+            "pan": "EYXFG1867H",
+            "credit_score": 310
+        },
+        {
+            "pan": "ZECPB1110G",
+            "credit_score": 755
+        },
+        {
+            "pan": "DLVTR1940W",
+            "credit_score": 777
+        },
+        {
+            "pan": "KQXCV7194F",
+            "credit_score": 658
+        },
+        {
+            "pan": "EAVFA9730J",
+            "credit_score": 562
+        },
+        {
+            "pan": "LAACC7962I",
+            "credit_score": 411
+        },
+        {
+            "pan": "MPKAW6597J",
+            "credit_score": 800
+        },
+        {
+            "pan": "ZDFAK4220J",
+            "credit_score": 659
+        },
+        {
+            "pan": "VNNHR4893D",
+            "credit_score": 498
+        },
+        {
+            "pan": "DRYAP8690F",
+            "credit_score": 577
+        },
+        {
+            "pan": "HQTPP4090T",
+            "credit_score": 367
+        },
+        {
+            "pan": "NKRCB2563M",
+            "credit_score": 436
+        },
+        {
+            "pan": "CYSFP1041K",
+            "credit_score": 442
+        },
+        {
+            "pan": "RQUHS8062B",
+            "credit_score": 548
+        },
+        {
+            "pan": "JGYFP9778L",
+            "credit_score": 783
+        },
+        {
+            "pan": "FGDPD4224Q",
+            "credit_score": 845
+        },
+        {
+            "pan": "VIQTP0128E",
+            "credit_score": 628
+        },
+        {
+            "pan": "OUQCJ5748O",
+            "credit_score": 458
+        },
+        {
+            "pan": "TCOFG3159Z",
+            "credit_score": 896
+        },
+        {
+            "pan": "BPFPB1141F",
+            "credit_score": 701
+        },
+        {
+            "pan": "MNNTM6627D",
+            "credit_score": 845
+        },
+        {
+            "pan": "CRDCM1132J",
+            "credit_score": 728
+        },
+        {
+            "pan": "ATRCC7417W",
+            "credit_score": 832
+        },
+        {
+            "pan": "JYPFC3106Z",
+            "credit_score": 468
+        },
+        {
+            "pan": "LQPFP5943C",
+            "credit_score": 316
+        },
+        {
+            "pan": "XTKCP4704F",
+            "credit_score": 723
+        },
+        {
+            "pan": "IQZTJ6103E",
+            "credit_score": 844
+        },
+        {
+            "pan": "HVWTE7271J",
+            "credit_score": 603
+        },
+        {
+            "pan": "GLICN8197F",
+            "credit_score": 675
+        },
+        {
+            "pan": "FBIAJ0355V",
+            "credit_score": 783
+        },
+        {
+            "pan": "WKGPG8906L",
+            "credit_score": 315
+        },
+        {
+            "pan": "HTKAD1029N",
+            "credit_score": 824
+        },
+        {
+            "pan": "ZSCAR2629R",
+            "credit_score": 629
+        },
+        {
+            "pan": "UWSHL5325Q",
+            "credit_score": 830
+        },
+        {
+            "pan": "MHOCH7625P",
+            "credit_score": 397
+        },
+        {
+            "pan": "PPIAL4683A",
+            "credit_score": 629
+        },
+        {
+            "pan": "WISTJ8534B",
+            "credit_score": 806
+        },
+        {
+            "pan": "VJFFA3149W",
+            "credit_score": 821
+        },
+        {
+            "pan": "VVVHS4245B",
+            "credit_score": 520
+        },
+        {
+            "pan": "NKIPC5743J",
+            "credit_score": 460
+        },
+        {
+            "pan": "JIWFP2260X",
+            "credit_score": 748
+        },
+        {
+            "pan": "XKWTF9355C",
+            "credit_score": 790
+        },
+        {
+            "pan": "BBYPJ3767P",
+            "credit_score": 808
+        },
+        {
+            "pan": "XBNPG7191U",
+            "credit_score": 791
+        },
+        {
+            "pan": "HLCAM7220Z",
+            "credit_score": 675
+        },
+        {
+            "pan": "VTMHS3429L",
+            "credit_score": 723
+        },
+        {
+            "pan": "JDTAS7451L",
+            "credit_score": 317
+        },
+        {
+            "pan": "EYDTH1638L",
+            "credit_score": 789
+        },
+        {
+            "pan": "LSCCT5405G",
+            "credit_score": 433
+        },
+        {
+            "pan": "QPJPK8418K",
+            "credit_score": 549
+        },
+        {
+            "pan": "FGIPE2246A",
+            "credit_score": 738
+        },
+        {
+            "pan": "DPMFI1358O",
+            "credit_score": 659
+        },
+        {
+            "pan": "IWXTV2891F",
+            "credit_score": 435
+        },
+        {
+            "pan": "RLICW1657Q",
+            "credit_score": 441
+        },
+        {
+            "pan": "EPATV6787S",
+            "credit_score": 620
+        },
+        {
+            "pan": "RXUFL1667X",
+            "credit_score": 734
+        },
+        {
+            "pan": "XGNCK0272T",
+            "credit_score": 500
+        },
+        {
+            "pan": "PBTPE3980D",
+            "credit_score": 378
+        },
+        {
+            "pan": "VDFCT0015T",
+            "credit_score": 639
+        },
+        {
+            "pan": "AWVHJ9521F",
+            "credit_score": 595
+        },
+        {
+            "pan": "TIDCS5009U",
+            "credit_score": 803
+        },
+        {
+            "pan": "ZOTPH0927M",
+            "credit_score": 740
+        },
+        {
+            "pan": "TWOTS7978E",
+            "credit_score": 587
+        },
+        {
+            "pan": "YKDAA6621T",
+            "credit_score": 504
+        },
+        {
+            "pan": "OBKTH7056Q",
+            "credit_score": 841
+        },
+        {
+            "pan": "PQYTH0962M",
+            "credit_score": 507
+        },
+        {
+            "pan": "KSEHW0936O",
+            "credit_score": 713
+        },
+        {
+            "pan": "QNKCW7126P",
+            "credit_score": 466
+        },
+        {
+            "pan": "WVQCH5769X",
+            "credit_score": 384
+        },
+        {
+            "pan": "HAWTP4700P",
+            "credit_score": 708
+        },
+        {
+            "pan": "UZYHW8126T",
+            "credit_score": 359
+        },
+        {
+            "pan": "GGAPT6174V",
+            "credit_score": 747
+        },
+        {
+            "pan": "SMOCS4739K",
+            "credit_score": 835
+        },
+        {
+            "pan": "BLZFH1092O",
+            "credit_score": 606
+        },
+        {
+            "pan": "KVJHG2924D",
+            "credit_score": 369
+        },
+        {
+            "pan": "OUXPC3181Z",
+            "credit_score": 660
+        },
+        {
+            "pan": "MHJAW1970E",
+            "credit_score": 713
+        },
+        {
+            "pan": "QIUPC8652R",
+            "credit_score": 804
+        },
+        {
+            "pan": "ADZPJ0877A",
+            "credit_score": 414
+        },
+        {
+            "pan": "GKOFD5818S",
+            "credit_score": 550
+        },
+        {
+            "pan": "KBSPR6447S",
+            "credit_score": 560
+        },
+        {
+            "pan": "YXMPW7085Y",
+            "credit_score": 871
+        },
+        {
+            "pan": "OTRAH3255Z",
+            "credit_score": 844
+        },
+        {
+            "pan": "IMACG7404P",
+            "credit_score": 445
+        },
+        {
+            "pan": "FEYTJ1277A",
+            "credit_score": 349
+        },
+        {
+            "pan": "KAQHH0368G",
+            "credit_score": 488
+        },
+        {
+            "pan": "JLZHG0553I",
+            "credit_score": 392
+        },
+        {
+            "pan": "EFLHS4520V",
+            "credit_score": 866
+        },
+        {
+            "pan": "JFWCJ6961F",
+            "credit_score": 807
+        },
+        {
+            "pan": "BSDAJ8726B",
+            "credit_score": 514
+        },
+        {
+            "pan": "CJZTR1728M",
+            "credit_score": 777
+        },
+        {
+            "pan": "UTNHA0738Y",
+            "credit_score": 735
+        },
+        {
+            "pan": "YGYHL3530L",
+            "credit_score": 780
+        },
+        {
+            "pan": "LBBCH7605N",
+            "credit_score": 812
+        },
+        {
+            "pan": "IKZCB3076B",
+            "credit_score": 838
+        },
+        {
+            "pan": "SXFPM5593N",
+            "credit_score": 300
+        },
+        {
+            "pan": "PDXHW5372W",
+            "credit_score": 491
+        },
+        {
+            "pan": "MIPFF9735A",
+            "credit_score": 732
+        },
+        {
+            "pan": "EZRHH0067T",
+            "credit_score": 314
+        },
+        {
+            "pan": "ORNAM1347I",
+            "credit_score": 768
+        },
+        {
+            "pan": "MUHHR2996O",
+            "credit_score": 732
+        },
+        {
+            "pan": "VYZFM8717X",
+            "credit_score": 778
+        },
+        {
+            "pan": "WRJFP2244A",
+            "credit_score": 574
+        },
+        {
+            "pan": "MCAAM6228W",
+            "credit_score": 662
+        },
+        {
+            "pan": "BRSCF1964Q",
+            "credit_score": 760
+        },
+        {
+            "pan": "IVFTA2922M",
+            "credit_score": 853
+        },
+        {
+            "pan": "ZMBPH3793H",
+            "credit_score": 369
+        },
+        {
+            "pan": "LIYHR1333X",
+            "credit_score": 672
+        },
+        {
+            "pan": "XTZHS0973P",
+            "credit_score": 549
+        },
+        {
+            "pan": "CVUHS6711X",
+            "credit_score": 728
+        },
+        {
+            "pan": "JJLTB4761D",
+            "credit_score": 540
+        },
+        {
+            "pan": "EUDAS6587N",
+            "credit_score": 497
+        },
+        {
+            "pan": "NTNCO7555Z",
+            "credit_score": 404
+        },
+        {
+            "pan": "XJTTT9424A",
+            "credit_score": 605
+        },
+        {
+            "pan": "OHSFN9752D",
+            "credit_score": 723
+        },
+        {
+            "pan": "GHQTG2870H",
+            "credit_score": 300
+        },
+        {
+            "pan": "CTFTM7484Y",
+            "credit_score": 468
+        },
+        {
+            "pan": "BSMCH4659G",
+            "credit_score": 668
+        },
+        {
+            "pan": "PTXAM9968W",
+            "credit_score": 727
+        },
+        {
+            "pan": "KOSAC8929F",
+            "credit_score": 409
+        },
+        {
+            "pan": "LMHPS5222T",
+            "credit_score": 500
+        },
+        {
+            "pan": "FQIFR5097U",
+            "credit_score": 773
+        },
+        {
+            "pan": "MYRFF7929S",
+            "credit_score": 425
+        },
+        {
+            "pan": "BVDCC7883S",
+            "credit_score": 745
+        },
+        {
+            "pan": "IOKHR3778G",
+            "credit_score": 811
+        },
+        {
+            "pan": "WGJCS9676K",
+            "credit_score": 784
+        },
+        {
+            "pan": "LGRFS9199Y",
+            "credit_score": 506
+        },
+        {
+            "pan": "BXZFH8227Z",
+            "credit_score": 425
+        },
+        {
+            "pan": "KCMAM7045C",
+            "credit_score": 585
+        },
+        {
+            "pan": "STPHZ3405G",
+            "credit_score": 716
+        },
+        {
+            "pan": "EGQHV1316Q",
+            "credit_score": 873
+        },
+        {
+            "pan": "ZHYAG1443R",
+            "credit_score": 693
+        },
+        {
+            "pan": "WWOTF1329C",
+            "credit_score": 828
+        },
+        {
+            "pan": "ANMCC1467K",
+            "credit_score": 589
+        },
+        {
+            "pan": "HBSAH1382Y",
+            "credit_score": 644
+        },
+        {
+            "pan": "RLBAG9794F",
+            "credit_score": 732
+        },
+        {
+            "pan": "IBPTC7353S",
+            "credit_score": 493
+        },
+        {
+            "pan": "GYPFF0067G",
+            "credit_score": 651
+        },
+        {
+            "pan": "UUQCW0466W",
+            "credit_score": 637
+        },
+        {
+            "pan": "SFUFL5613X",
+            "credit_score": 307
+        },
+        {
+            "pan": "KCYCL0021S",
+            "credit_score": 369
+        },
+        {
+            "pan": "XPTHC8964V",
+            "credit_score": 363
+        },
+        {
+            "pan": "LOWCC1516P",
+            "credit_score": 899
+        },
+        {
+            "pan": "GAJTM5723Q",
+            "credit_score": 854
+        },
+        {
+            "pan": "ZWTAP4065R",
+            "credit_score": 413
+        },
+        {
+            "pan": "ZSLCH1089S",
+            "credit_score": 318
+        },
+        {
+            "pan": "JVTPS6179M",
+            "credit_score": 366
+        },
+        {
+            "pan": "HKJAO2607H",
+            "credit_score": 647
+        },
+        {
+            "pan": "UAVCL5441R",
+            "credit_score": 746
+        },
+        {
+            "pan": "SHPFL3591S",
+            "credit_score": 824
+        },
+        {
+            "pan": "SGXHW8159L",
+            "credit_score": 403
+        },
+        {
+            "pan": "JRRHM5034Y",
+            "credit_score": 525
+        },
+        {
+            "pan": "YRCFT0341J",
+            "credit_score": 735
+        },
+        {
+            "pan": "XNAAP9147R",
+            "credit_score": 891
+        },
+        {
+            "pan": "VIIPS5923C",
+            "credit_score": 444
+        },
+        {
+            "pan": "DSRHG8807T",
+            "credit_score": 563
+        },
+        {
+            "pan": "KHMHR6647F",
+            "credit_score": 863
+        },
+        {
+            "pan": "HIOTL7632J",
+            "credit_score": 537
+        },
+        {
+            "pan": "MMIFL2886H",
+            "credit_score": 765
+        },
+        {
+            "pan": "BXCPM7669T",
+            "credit_score": 451
+        },
+        {
+            "pan": "OPBPE3639Y",
+            "credit_score": 532
+        },
+        {
+            "pan": "IAYHM7796W",
+            "credit_score": 675
+        },
+        {
+            "pan": "QYDAM7848L",
+            "credit_score": 844
+        },
+        {
+            "pan": "JWJAH9263N",
+            "credit_score": 406
+        },
+        {
+            "pan": "BVHCM1742T",
+            "credit_score": 319
+        },
+        {
+            "pan": "HODPF7793M",
+            "credit_score": 541
+        },
+        {
+            "pan": "TPWFH9818K",
+            "credit_score": 356
+        },
+        {
+            "pan": "NLHCH1677V",
+            "credit_score": 885
+        },
+        {
+            "pan": "PBJCH3145S",
+            "credit_score": 859
+        },
+        {
+            "pan": "KXUAL4603H",
+            "credit_score": 625
+        },
+        {
+            "pan": "XUUHD9939T",
+            "credit_score": 325
+        },
+        {
+            "pan": "SBJCJ4031P",
+            "credit_score": 554
+        },
+        {
+            "pan": "HRLHC7297N",
+            "credit_score": 687
+        },
+        {
+            "pan": "KTNHL4667D",
+            "credit_score": 495
+        },
+        {
+            "pan": "GRCTP6291B",
+            "credit_score": 526
+        },
+        {
+            "pan": "QTJTA6637W",
+            "credit_score": 372
+        },
+        {
+            "pan": "OLBTB2431P",
+            "credit_score": 738
+        },
+        {
+            "pan": "KIVAE1698S",
+            "credit_score": 790
+        },
+        {
+            "pan": "PSQTS8618U",
+            "credit_score": 312
+        },
+        {
+            "pan": "YJJHM3988T",
+            "credit_score": 338
+        },
+        {
+            "pan": "ODDAH3994O",
+            "credit_score": 543
+        },
+        {
+            "pan": "HRXFM8344P",
+            "credit_score": 763
+        },
+        {
+            "pan": "CVQPD3682R",
+            "credit_score": 809
+        },
+        {
+            "pan": "NWIAD3992R",
+            "credit_score": 636
+        },
+        {
+            "pan": "QWYTB2187P",
+            "credit_score": 777
+        },
+        {
+            "pan": "SKACM1291Z",
+            "credit_score": 593
+        },
+        {
+            "pan": "WAJPW9975V",
+            "credit_score": 800
+        },
+        {
+            "pan": "ZPBFI6309O",
+            "credit_score": 447
+        },
+        {
+            "pan": "NSWHR0268K",
+            "credit_score": 636
+        },
+        {
+            "pan": "QURFC1505S",
+            "credit_score": 655
+        },
+        {
+            "pan": "CDVTF5136P",
+            "credit_score": 603
+        },
+        {
+            "pan": "TDAAB2298Q",
+            "credit_score": 496
+        },
+        {
+            "pan": "IAWAW2948E",
+            "credit_score": 535
+        },
+        {
+            "pan": "CISTM0070U",
+            "credit_score": 581
+        },
+        {
+            "pan": "ADXAW4408V",
+            "credit_score": 510
+        },
+        {
+            "pan": "CFWTH8167X",
+            "credit_score": 504
+        },
+        {
+            "pan": "ZFRHH2177W",
+            "credit_score": 508
+        },
+        {
+            "pan": "IRKCM4788P",
+            "credit_score": 444
+        },
+        {
+            "pan": "BDNFM0389E",
+            "credit_score": 727
+        },
+        {
+            "pan": "AWWAG7810Z",
+            "credit_score": 776
+        },
+        {
+            "pan": "ARDCR1307D",
+            "credit_score": 767
+        },
+        {
+            "pan": "HYGPA1025T",
+            "credit_score": 312
+        },
+        {
+            "pan": "GINCC7795T",
+            "credit_score": 352
+        },
+        {
+            "pan": "RMUPA0901U",
+            "credit_score": 319
+        },
+        {
+            "pan": "HCRCJ6523L",
+            "credit_score": 725
+        },
+        {
+            "pan": "CTGPL5653Y",
+            "credit_score": 662
+        },
+        {
+            "pan": "SXHHW0164Z",
+            "credit_score": 466
+        },
+        {
+            "pan": "GDKCZ9952X",
+            "credit_score": 323
+        },
+        {
+            "pan": "GQEFH1596N",
+            "credit_score": 443
+        },
+        {
+            "pan": "UMPHN9700P",
+            "credit_score": 772
+        },
+        {
+            "pan": "ARWTA2854Y",
+            "credit_score": 659
+        },
+        {
+            "pan": "TOPFS3511V",
+            "credit_score": 564
+        },
+        {
+            "pan": "WWJFR8707A",
+            "credit_score": 315
+        },
+        {
+            "pan": "RYMAD7542K",
+            "credit_score": 391
+        },
+        {
+            "pan": "XIGTM8684K",
+            "credit_score": 377
+        },
+        {
+            "pan": "LGHHW7189M",
+            "credit_score": 338
+        },
+        {
+            "pan": "NYGAJ2060V",
+            "credit_score": 771
+        },
+        {
+            "pan": "TOXPR4616Q",
+            "credit_score": 510
+        },
+        {
+            "pan": "LXXPJ1282J",
+            "credit_score": 422
+        },
+        {
+            "pan": "UVKHS1338D",
+            "credit_score": 476
+        },
+        {
+            "pan": "ZPWAM1730Z",
+            "credit_score": 781
+        },
+        {
+            "pan": "PRWPB2260I",
+            "credit_score": 677
+        },
+        {
+            "pan": "TXQFS6224P",
+            "credit_score": 331
+        },
+        {
+            "pan": "HAVTR3815Y",
+            "credit_score": 756
+        },
+        {
+            "pan": "NROHN3193J",
+            "credit_score": 524
+        },
+        {
+            "pan": "JTCTP9701G",
+            "credit_score": 304
+        },
+        {
+            "pan": "XETPS8009J",
+            "credit_score": 568
+        },
+        {
+            "pan": "VJUAS1233U",
+            "credit_score": 819
+        },
+        {
+            "pan": "JJECR3968C",
+            "credit_score": 638
+        },
+        {
+            "pan": "UTTFP7941Y",
+            "credit_score": 542
+        },
+        {
+            "pan": "OFATA2277K",
+            "credit_score": 638
+        },
+        {
+            "pan": "CJQAF2754Q",
+            "credit_score": 534
+        },
+        {
+            "pan": "RIKFK9156W",
+            "credit_score": 609
+        },
+        {
+            "pan": "BILCB7868B",
+            "credit_score": 878
+        },
+        {
+            "pan": "QFBAS5056F",
+            "credit_score": 772
+        },
+        {
+            "pan": "LQCTH9653K",
+            "credit_score": 330
+        },
+        {
+            "pan": "RQGPH8508D",
+            "credit_score": 397
+        },
+        {
+            "pan": "JPOPR9000G",
+            "credit_score": 543
+        },
+        {
+            "pan": "VTBCM1887K",
+            "credit_score": 477
+        },
+        {
+            "pan": "BHQHB0768T",
+            "credit_score": 468
+        },
+        {
+            "pan": "OYXCN7653E",
+            "credit_score": 357
+        },
+        {
+            "pan": "OTQFP1635D",
+            "credit_score": 469
+        },
+        {
+            "pan": "XDITM8177R",
+            "credit_score": 794
+        },
+        {
+            "pan": "SASTR7555X",
+            "credit_score": 715
+        },
+        {
+            "pan": "EONPR0974F",
+            "credit_score": 432
+        },
+        {
+            "pan": "KCHHS8404O",
+            "credit_score": 639
+        },
+        {
+            "pan": "WBVPB1567R",
+            "credit_score": 491
+        },
+        {
+            "pan": "BNPCL8388G",
+            "credit_score": 527
+        },
+        {
+            "pan": "XBNCC5447R",
+            "credit_score": 591
+        },
+        {
+            "pan": "PMBPB1977X",
+            "credit_score": 533
+        },
+        {
+            "pan": "RTVTH6283R",
+            "credit_score": 307
+        },
+        {
+            "pan": "UDCHS0733F",
+            "credit_score": 473
+        },
+        {
+            "pan": "XJGFM3255F",
+            "credit_score": 578
+        },
+        {
+            "pan": "CQYCB8511N",
+            "credit_score": 573
+        },
+        {
+            "pan": "ADOHC3218F",
+            "credit_score": 400
+        },
+        {
+            "pan": "YPTHC3524W",
+            "credit_score": 872
+        },
+        {
+            "pan": "WPSTD7982R",
+            "credit_score": 646
+        },
+        {
+            "pan": "MZKCS1959W",
+            "credit_score": 590
+        },
+        {
+            "pan": "TARPF1185Y",
+            "credit_score": 376
+        },
+        {
+            "pan": "UMPTF9460F",
+            "credit_score": 360
+        },
+        {
+            "pan": "ABHCH3932B",
+            "credit_score": 786
+        },
+        {
+            "pan": "QYRTL2950O",
+            "credit_score": 477
+        },
+        {
+            "pan": "UPRHR1300S",
+            "credit_score": 779
+        },
+        {
+            "pan": "WJSFB3196V",
+            "credit_score": 616
+        },
+        {
+            "pan": "ZODHJ7632U",
+            "credit_score": 463
+        },
+        {
+            "pan": "FUMTH7897R",
+            "credit_score": 430
+        },
+        {
+            "pan": "YVTPS2799E",
+            "credit_score": 843
+        },
+        {
+            "pan": "ZYTPR4675B",
+            "credit_score": 382
+        },
+        {
+            "pan": "YSQHJ6520J",
+            "credit_score": 466
+        },
+        {
+            "pan": "ZCOHM7828H",
+            "credit_score": 872
+        },
+        {
+            "pan": "DWSPD0785Q",
+            "credit_score": 506
+        },
+        {
+            "pan": "BVYFD9731Q",
+            "credit_score": 412
+        },
+        {
+            "pan": "HPLTL1492A",
+            "credit_score": 351
+        },
+        {
+            "pan": "ZSQHC2923U",
+            "credit_score": 768
+        },
+        {
+            "pan": "VTRHK2094S",
+            "credit_score": 744
+        },
+        {
+            "pan": "JMZAB0990T",
+            "credit_score": 468
+        },
+        {
+            "pan": "PSCFS1280G",
+            "credit_score": 477
+        },
+        {
+            "pan": "GQFHR3486B",
+            "credit_score": 800
+        },
+        {
+            "pan": "ODFAM9536B",
+            "credit_score": 504
+        },
+        {
+            "pan": "DQSTM6549Y",
+            "credit_score": 342
+        },
+        {
+            "pan": "LBTCS7899E",
+            "credit_score": 401
+        },
+        {
+            "pan": "ITYPC9228Z",
+            "credit_score": 751
+        },
+        {
+            "pan": "RRZCJ4901D",
+            "credit_score": 450
+        },
+        {
+            "pan": "UDOPC3433H",
+            "credit_score": 693
+        },
+        {
+            "pan": "BSOHB7565W",
+            "credit_score": 397
+        },
+        {
+            "pan": "GHHPK0011Q",
+            "credit_score": 355
+        },
+        {
+            "pan": "LGZHC6687E",
+            "credit_score": 377
+        },
+        {
+            "pan": "JQXCW4403H",
+            "credit_score": 768
+        },
+        {
+            "pan": "GKZCG7819K",
+            "credit_score": 748
+        },
+        {
+            "pan": "YGAFC3958X",
+            "credit_score": 527
+        },
+        {
+            "pan": "RPFHP3154C",
+            "credit_score": 422
+        },
+        {
+            "pan": "QMPTT4512S",
+            "credit_score": 397
+        },
+        {
+            "pan": "MBDAS7377Q",
+            "credit_score": 498
+        },
+        {
+            "pan": "ECLAM8284R",
+            "credit_score": 323
+        },
+        {
+            "pan": "IISAF3190O",
+            "credit_score": 438
+        },
+        {
+            "pan": "PVIPC2387B",
+            "credit_score": 828
+        },
+        {
+            "pan": "GOCPC3669B",
+            "credit_score": 652
+        },
+        {
+            "pan": "WXEPG2832S",
+            "credit_score": 753
+        },
+        {
+            "pan": "FEFHC5868L",
+            "credit_score": 700
+        },
+        {
+            "pan": "MRRAB9120V",
+            "credit_score": 503
+        },
+        {
+            "pan": "TKNPY3652Q",
+            "credit_score": 385
+        },
+        {
+            "pan": "LJEHJ9062R",
+            "credit_score": 627
+        },
+        {
+            "pan": "QLDAF6182Y",
+            "credit_score": 548
+        },
+        {
+            "pan": "AFUHH1624B",
+            "credit_score": 360
+        },
+        {
+            "pan": "ZTOHH3509D",
+            "credit_score": 782
+        },
+        {
+            "pan": "ABBCR7754U",
+            "credit_score": 361
+        },
+        {
+            "pan": "PBFPC8319O",
+            "credit_score": 521
+        },
+        {
+            "pan": "TFPTB4246J",
+            "credit_score": 647
+        },
+        {
+            "pan": "AALPC3586I",
+            "credit_score": 690
+        },
+        {
+            "pan": "RSSPR3862T",
+            "credit_score": 407
+        },
+        {
+            "pan": "XNHFT7547P",
+            "credit_score": 648
+        },
+        {
+            "pan": "FCSFP1911T",
+            "credit_score": 347
+        },
+        {
+            "pan": "YCVTW9990X",
+            "credit_score": 447
+        },
+        {
+            "pan": "XKJFW8260C",
+            "credit_score": 643
+        },
+        {
+            "pan": "FMCCL2511I",
+            "credit_score": 654
+        },
+        {
+            "pan": "MULTL8742M",
+            "credit_score": 322
+        },
+        {
+            "pan": "GVXPM9535S",
+            "credit_score": 535
+        },
+        {
+            "pan": "XNYAJ6519M",
+            "credit_score": 702
+        },
+        {
+            "pan": "VMCPG1574P",
+            "credit_score": 707
+        },
+        {
+            "pan": "KZJPA4331Q",
+            "credit_score": 860
+        },
+        {
+            "pan": "LLCHS9390O",
+            "credit_score": 685
+        },
+        {
+            "pan": "AGHPM5771V",
+            "credit_score": 394
+        },
+        {
+            "pan": "JBEAR1591G",
+            "credit_score": 577
+        },
+        {
+            "pan": "FOWFH7937I",
+            "credit_score": 608
+        },
+        {
+            "pan": "BGXHD7482H",
+            "credit_score": 591
+        },
+        {
+            "pan": "VZNTP9219T",
+            "credit_score": 801
+        },
+        {
+            "pan": "GPRPP9783H",
+            "credit_score": 598
+        },
+        {
+            "pan": "TZDPB2899Q",
+            "credit_score": 805
+        },
+        {
+            "pan": "QGMHH8077R",
+            "credit_score": 811
+        },
+        {
+            "pan": "JOYHS7958F",
+            "credit_score": 866
+        },
+        {
+            "pan": "EOTHR0387O",
+            "credit_score": 895
+        },
+        {
+            "pan": "VCCTF7629T",
+            "credit_score": 765
+        },
+        {
+            "pan": "QHMHT5948G",
+            "credit_score": 685
+        },
+        {
+            "pan": "PTHAS1859G",
+            "credit_score": 375
+        },
+        {
+            "pan": "ELJHF0754G",
+            "credit_score": 384
+        },
+        {
+            "pan": "SKEFM7247K",
+            "credit_score": 521
+        },
+        {
+            "pan": "DVRPD1896V",
+            "credit_score": 698
+        },
+        {
+            "pan": "HVHPB2574V",
+            "credit_score": 877
+        },
+        {
+            "pan": "JFUPM7608X",
+            "credit_score": 424
+        },
+        {
+            "pan": "KEDTM1667Z",
+            "credit_score": 533
+        },
+        {
+            "pan": "NVHFC5773K",
+            "credit_score": 899
+        },
+        {
+            "pan": "PNLPF9261A",
+            "credit_score": 477
+        },
+        {
+            "pan": "AGYFH8833G",
+            "credit_score": 303
+        },
+        {
+            "pan": "QLBAG3373U",
+            "credit_score": 669
+        },
+        {
+            "pan": "QSDFS9976D",
+            "credit_score": 389
+        },
+        {
+            "pan": "FFWFR9490K",
+            "credit_score": 878
+        },
+        {
+            "pan": "EGJAB1339J",
+            "credit_score": 898
+        },
+        {
+            "pan": "RIJPM8358M",
+            "credit_score": 307
+        },
+        {
+            "pan": "RKOCP4773Q",
+            "credit_score": 786
+        },
+        {
+            "pan": "XGSTB0342I",
+            "credit_score": 421
+        },
+        {
+            "pan": "DEZHA8691D",
+            "credit_score": 382
+        },
+        {
+            "pan": "SWFAM1979R",
+            "credit_score": 776
+        },
+        {
+            "pan": "WFGPG7126F",
+            "credit_score": 881
+        },
+        {
+            "pan": "SQUHR4116R",
+            "credit_score": 652
+        },
+        {
+            "pan": "TYPTO1636A",
+            "credit_score": 468
+        },
+        {
+            "pan": "DYQTR2815F",
+            "credit_score": 552
+        },
+        {
+            "pan": "CBBHG2955S",
+            "credit_score": 544
+        },
+        {
+            "pan": "TQXCF4210A",
+            "credit_score": 463
+        },
+        {
+            "pan": "CULHS4404S",
+            "credit_score": 410
+        },
+        {
+            "pan": "ROZTW4571F",
+            "credit_score": 594
+        },
+        {
+            "pan": "KZNHB6362V",
+            "credit_score": 386
+        },
+        {
+            "pan": "OJUPM3403E",
+            "credit_score": 730
+        },
+        {
+            "pan": "DAMFB4953R",
+            "credit_score": 696
+        },
+        {
+            "pan": "SOYFM5987M",
+            "credit_score": 827
+        },
+        {
+            "pan": "GMYTJ6533K",
+            "credit_score": 785
+        },
+        {
+            "pan": "RIPPJ6708J",
+            "credit_score": 653
+        },
+        {
+            "pan": "TKEPM8367H",
+            "credit_score": 861
+        },
+        {
+            "pan": "EVCPB8141X",
+            "credit_score": 809
+        },
+        {
+            "pan": "LBOCJ9766B",
+            "credit_score": 811
+        },
+        {
+            "pan": "YKCTW1552P",
+            "credit_score": 867
+        },
+        {
+            "pan": "OUSFL3457K",
+            "credit_score": 586
+        },
+        {
+            "pan": "BYOAB8083X",
+            "credit_score": 341
+        },
+        {
+            "pan": "UNWTJ2571J",
+            "credit_score": 809
+        },
+        {
+            "pan": "MHQFC8205X",
+            "credit_score": 347
+        },
+        {
+            "pan": "KIJFS9945S",
+            "credit_score": 441
+        },
+        {
+            "pan": "MFECM0831C",
+            "credit_score": 329
+        },
+        {
+            "pan": "WQNAZ6289R",
+            "credit_score": 661
+        },
+        {
+            "pan": "IEWAP4850R",
+            "credit_score": 787
+        },
+        {
+            "pan": "ENMTR8885N",
+            "credit_score": 547
+        },
+        {
+            "pan": "QQJPA2797M",
+            "credit_score": 506
+        },
+        {
+            "pan": "WTEPG2745G",
+            "credit_score": 730
+        },
+        {
+            "pan": "NWAHG0127M",
+            "credit_score": 318
+        },
+        {
+            "pan": "KWOAR3405K",
+            "credit_score": 859
+        },
+        {
+            "pan": "BBQCS4186S",
+            "credit_score": 349
+        },
+        {
+            "pan": "MLDFG7141H",
+            "credit_score": 603
+        },
+        {
+            "pan": "XSSAL4155X",
+            "credit_score": 850
+        },
+        {
+            "pan": "FYOTH6374L",
+            "credit_score": 833
+        },
+        {
+            "pan": "JQHAJ8356X",
+            "credit_score": 872
+        },
+        {
+            "pan": "GTHPH0477C",
+            "credit_score": 764
+        },
+        {
+            "pan": "BHWCT0789Y",
+            "credit_score": 405
+        },
+        {
+            "pan": "WQCAH8095O",
+            "credit_score": 734
+        },
+        {
+            "pan": "YWZPT0399G",
+            "credit_score": 655
+        },
+        {
+            "pan": "UUNAL8231J",
+            "credit_score": 417
+        },
+        {
+            "pan": "VHOTK9883H",
+            "credit_score": 807
+        },
+        {
+            "pan": "TFICN4932L",
+            "credit_score": 419
+        },
+        {
+            "pan": "VGFCF3053G",
+            "credit_score": 690
+        },
+        {
+            "pan": "MAFHS9831J",
+            "credit_score": 778
+        },
+        {
+            "pan": "KZWFC7205U",
+            "credit_score": 307
+        },
+        {
+            "pan": "QRJHJ4547H",
+            "credit_score": 468
+        },
+        {
+            "pan": "TADAG9123C",
+            "credit_score": 834
+        },
+        {
+            "pan": "JQMCM1813P",
+            "credit_score": 857
+        },
+        {
+            "pan": "YRGCW7037C",
+            "credit_score": 781
+        },
+        {
+            "pan": "ROEFG5091H",
+            "credit_score": 328
+        },
+        {
+            "pan": "EROFH3237R",
+            "credit_score": 566
+        },
+        {
+            "pan": "TOBAP1296P",
+            "credit_score": 678
+        },
+        {
+            "pan": "QSAPL4609Z",
+            "credit_score": 897
+        },
+        {
+            "pan": "POWAO1562T",
+            "credit_score": 589
+        },
+        {
+            "pan": "LHYHC5666Q",
+            "credit_score": 892
+        },
+        {
+            "pan": "OGQFL4299S",
+            "credit_score": 328
+        },
+        {
+            "pan": "YGVPM7108U",
+            "credit_score": 618
+        },
+        {
+            "pan": "RPLCD2739W",
+            "credit_score": 400
+        },
+        {
+            "pan": "CTCAW1779G",
+            "credit_score": 501
+        },
+        {
+            "pan": "GMDFM1056L",
+            "credit_score": 772
+        },
+        {
+            "pan": "NQRCS7269V",
+            "credit_score": 584
+        },
+        {
+            "pan": "RINTJ0975N",
+            "credit_score": 414
+        },
+        {
+            "pan": "BVQCS0327J",
+            "credit_score": 788
+        },
+        {
+            "pan": "JFHTA1919H",
+            "credit_score": 334
+        },
+        {
+            "pan": "HWEPH4935G",
+            "credit_score": 422
+        },
+        {
+            "pan": "MLOTR6121O",
+            "credit_score": 646
+        },
+        {
+            "pan": "JTEPR9403C",
+            "credit_score": 765
+        },
+        {
+            "pan": "SSJTH3448B",
+            "credit_score": 579
+        },
+        {
+            "pan": "CVPCM9940G",
+            "credit_score": 471
+        },
+        {
+            "pan": "ZPHCB4198E",
+            "credit_score": 898
+        },
+        {
+            "pan": "ZVFTJ9986D",
+            "credit_score": 421
+        },
+        {
+            "pan": "RUQFG9584A",
+            "credit_score": 371
+        },
+        {
+            "pan": "YKBAD8775O",
+            "credit_score": 487
+        },
+        {
+            "pan": "VJBTB6943A",
+            "credit_score": 627
+        },
+        {
+            "pan": "OMLAJ2945F",
+            "credit_score": 396
+        },
+        {
+            "pan": "QPCAE6142T",
+            "credit_score": 754
+        },
+        {
+            "pan": "FDEPG3013C",
+            "credit_score": 407
+        },
+        {
+            "pan": "XJDHD2941G",
+            "credit_score": 344
+        },
+        {
+            "pan": "KQMTJ7885X",
+            "credit_score": 667
+        },
+        {
+            "pan": "HZIFC2475C",
+            "credit_score": 432
+        },
+        {
+            "pan": "HVSTB3916Z",
+            "credit_score": 402
+        },
+        {
+            "pan": "DALPC9462N",
+            "credit_score": 693
+        },
+        {
+            "pan": "BECFM7055B",
+            "credit_score": 334
+        },
+        {
+            "pan": "WQKAA0278Q",
+            "credit_score": 331
+        },
+        {
+            "pan": "WBBPC3150Z",
+            "credit_score": 547
+        },
+        {
+            "pan": "XOIAB2144A",
+            "credit_score": 857
+        },
+        {
+            "pan": "JZQFW2961Q",
+            "credit_score": 743
+        },
+        {
+            "pan": "VWPFB8325E",
+            "credit_score": 310
+        },
+        {
+            "pan": "OCLTV7979E",
+            "credit_score": 397
+        },
+        {
+            "pan": "PHQPC3085I",
+            "credit_score": 498
+        },
+        {
+            "pan": "LALFW3376Y",
+            "credit_score": 698
+        },
+        {
+            "pan": "PDJHS8136C",
+            "credit_score": 324
+        },
+        {
+            "pan": "FZEHS2033B",
+            "credit_score": 596
+        },
+        {
+            "pan": "EKHAJ4850T",
+            "credit_score": 740
+        },
+        {
+            "pan": "VFPPP4416J",
+            "credit_score": 420
+        },
+        {
+            "pan": "YAPTP2439U",
+            "credit_score": 441
+        },
+        {
+            "pan": "AGVFW7471E",
+            "credit_score": 794
+        },
+        {
+            "pan": "RLFFB7232H",
+            "credit_score": 800
+        },
+        {
+            "pan": "RFWFC0696F",
+            "credit_score": 631
+        },
+        {
+            "pan": "NOMCS2156R",
+            "credit_score": 412
+        },
+        {
+            "pan": "XJTAR4015R",
+            "credit_score": 603
+        },
+        {
+            "pan": "EUXHG2853R",
+            "credit_score": 581
+        },
+        {
+            "pan": "IVTAP9697F",
+            "credit_score": 529
+        },
+        {
+            "pan": "DMTAC6043S",
+            "credit_score": 527
+        },
+        {
+            "pan": "LGWHT6070B",
+            "credit_score": 340
+        },
+        {
+            "pan": "VYGFG9220A",
+            "credit_score": 460
+        },
+        {
+            "pan": "ZOHHM2770W",
+            "credit_score": 877
+        },
+        {
+            "pan": "SYBAS5831Z",
+            "credit_score": 484
+        },
+        {
+            "pan": "QPCHL8629E",
+            "credit_score": 851
+        },
+        {
+            "pan": "PYZHD4065L",
+            "credit_score": 334
+        },
+        {
+            "pan": "TVZTC5559Z",
+            "credit_score": 802
+        },
+        {
+            "pan": "CYPHL8223C",
+            "credit_score": 351
+        },
+        {
+            "pan": "DBCCJ6317D",
+            "credit_score": 439
+        },
+        {
+            "pan": "KDGFF1024C",
+            "credit_score": 821
+        },
+        {
+            "pan": "RAZCM6415W",
+            "credit_score": 422
+        },
+        {
+            "pan": "CJJFM0508H",
+            "credit_score": 511
+        },
+        {
+            "pan": "PXECS4899C",
+            "credit_score": 573
+        },
+        {
+            "pan": "FIIFM4364E",
+            "credit_score": 664
+        },
+        {
+            "pan": "VQBAH9266U",
+            "credit_score": 834
+        },
+        {
+            "pan": "ETBTJ7417Z",
+            "credit_score": 734
+        },
+        {
+            "pan": "EAXAH3699M",
+            "credit_score": 831
+        },
+        {
+            "pan": "YNOAB4864I",
+            "credit_score": 371
+        },
+        {
+            "pan": "DGHCM4444J",
+            "credit_score": 742
+        },
+        {
+            "pan": "IEGPP9421U",
+            "credit_score": 895
+        },
+        {
+            "pan": "QQKHC5179A",
+            "credit_score": 592
+        },
+        {
+            "pan": "DTZCM7163M",
+            "credit_score": 524
+        },
+        {
+            "pan": "ZQVFL1305N",
+            "credit_score": 418
+        },
+        {
+            "pan": "ZABAS6078E",
+            "credit_score": 303
+        },
+        {
+            "pan": "BNHAW5041Q",
+            "credit_score": 800
+        },
+        {
+            "pan": "IFWCK7967X",
+            "credit_score": 336
+        },
+        {
+            "pan": "HADPT9076P",
+            "credit_score": 866
+        },
+        {
+            "pan": "LXKHH5258H",
+            "credit_score": 304
+        },
+        {
+            "pan": "EWQHW1570K",
+            "credit_score": 443
+        },
+        {
+            "pan": "BDIPP3518S",
+            "credit_score": 369
+        },
+        {
+            "pan": "XUYFR3715F",
+            "credit_score": 811
+        },
+        {
+            "pan": "NABPJ6051O",
+            "credit_score": 452
+        },
+        {
+            "pan": "JIWAM8843R",
+            "credit_score": 427
+        },
+        {
+            "pan": "MCITG9552I",
+            "credit_score": 542
+        },
+        {
+            "pan": "FLOCY0103U",
+            "credit_score": 598
+        },
+        {
+            "pan": "MELAM7357Z",
+            "credit_score": 650
+        },
+        {
+            "pan": "WJBPG7180E",
+            "credit_score": 743
+        },
+        {
+            "pan": "SVNCJ2726T",
+            "credit_score": 584
+        },
+        {
+            "pan": "YTWCW2631K",
+            "credit_score": 664
+        },
+        {
+            "pan": "BURPJ4274K",
+            "credit_score": 386
+        },
+        {
+            "pan": "KZFPC7880W",
+            "credit_score": 558
+        },
+        {
+            "pan": "TRSFJ0237P",
+            "credit_score": 694
+        },
+        {
+            "pan": "ELWCR8376B",
+            "credit_score": 495
+        },
+        {
+            "pan": "CEEHW9883M",
+            "credit_score": 667
+        },
+        {
+            "pan": "DVOHP0633W",
+            "credit_score": 473
+        },
+        {
+            "pan": "IZBTG4720S",
+            "credit_score": 678
+        },
+        {
+            "pan": "RQPAB9598L",
+            "credit_score": 835
+        },
+        {
+            "pan": "LRDPG8739C",
+            "credit_score": 552
+        },
+        {
+            "pan": "NFRHK2308L",
+            "credit_score": 549
+        },
+        {
+            "pan": "HJGAK8269W",
+            "credit_score": 620
+        },
+        {
+            "pan": "WDOFM9619X",
+            "credit_score": 883
+        },
+        {
+            "pan": "UQAFJ9829Z",
+            "credit_score": 516
+        },
+        {
+            "pan": "YNNCW9526M",
+            "credit_score": 799
+        },
+        {
+            "pan": "LYLCO9965N",
+            "credit_score": 866
+        },
+        {
+            "pan": "UMMCS7453V",
+            "credit_score": 746
+        },
+        {
+            "pan": "ZBKAM5564Q",
+            "credit_score": 876
+        },
+        {
+            "pan": "DXBHM3684X",
+            "credit_score": 346
+        },
+        {
+            "pan": "PTPAM3871B",
+            "credit_score": 359
+        },
+        {
+            "pan": "QYBHO1081F",
+            "credit_score": 352
+        },
+        {
+            "pan": "NMTAA8993V",
+            "credit_score": 504
+        },
+        {
+            "pan": "BWOTR9875M",
+            "credit_score": 484
+        },
+        {
+            "pan": "OJRPB7750F",
+            "credit_score": 685
+        },
+        {
+            "pan": "GMETC2538B",
+            "credit_score": 803
+        },
+        {
+            "pan": "FVFTW5966A",
+            "credit_score": 348
+        },
+        {
+            "pan": "OEQTV4642X",
+            "credit_score": 852
+        },
+        {
+            "pan": "XEQPG3742J",
+            "credit_score": 576
+        },
+        {
+            "pan": "DJITW4866E",
+            "credit_score": 606
+        },
+        {
+            "pan": "XLEFH8053P",
+            "credit_score": 565
+        },
+        {
+            "pan": "UOCAP3989E",
+            "credit_score": 839
+        },
+        {
+            "pan": "OQKFF4026J",
+            "credit_score": 689
+        },
+        {
+            "pan": "GTSAJ0695F",
+            "credit_score": 765
+        },
+        {
+            "pan": "SSWHM9965D",
+            "credit_score": 564
+        },
+        {
+            "pan": "HPMCM9471M",
+            "credit_score": 572
+        },
+        {
+            "pan": "RUDHD1503W",
+            "credit_score": 596
+        },
+        {
+            "pan": "KNEHW8044G",
+            "credit_score": 511
+        },
+        {
+            "pan": "KALCM8638L",
+            "credit_score": 737
+        },
+        {
+            "pan": "PQOFS2429N",
+            "credit_score": 348
+        },
+        {
+            "pan": "VNMCD4878J",
+            "credit_score": 358
+        },
+        {
+            "pan": "ATLFD0533X",
+            "credit_score": 606
+        },
+        {
+            "pan": "RRIPT7059P",
+            "credit_score": 561
+        },
+        {
+            "pan": "DYYAW1823X",
+            "credit_score": 337
+        },
+        {
+            "pan": "ODZAH0601T",
+            "credit_score": 496
+        },
+        {
+            "pan": "QEGAP3941Q",
+            "credit_score": 688
+        },
+        {
+            "pan": "SCICW4306N",
+            "credit_score": 534
+        },
+        {
+            "pan": "OCJHL6540C",
+            "credit_score": 464
+        },
+        {
+            "pan": "PLZAF0098T",
+            "credit_score": 632
+        },
+        {
+            "pan": "XQPPN4869X",
+            "credit_score": 433
+        },
+        {
+            "pan": "MHOFL0191C",
+            "credit_score": 443
+        },
+        {
+            "pan": "SBLCJ9372O",
+            "credit_score": 339
+        },
+        {
+            "pan": "ZVQPP6440X",
+            "credit_score": 797
+        },
+        {
+            "pan": "WSCFH9716A",
+            "credit_score": 512
+        },
+        {
+            "pan": "ZMUAS3102Y",
+            "credit_score": 487
+        },
+        {
+            "pan": "PCOAF6389E",
+            "credit_score": 619
+        },
+        {
+            "pan": "PVNCP8310I",
+            "credit_score": 749
+        },
+        {
+            "pan": "TDYCR8307F",
+            "credit_score": 763
+        },
+        {
+            "pan": "QDRPM4776N",
+            "credit_score": 848
+        },
+        {
+            "pan": "GNKTH4216A",
+            "credit_score": 340
+        },
+        {
+            "pan": "MVECD1764E",
+            "credit_score": 443
+        },
+        {
+            "pan": "PMWFH4500L",
+            "credit_score": 701
+        },
+        {
+            "pan": "WUCHB6072K",
+            "credit_score": 772
+        },
+        {
+            "pan": "OLIHB9180D",
+            "credit_score": 806
+        },
+        {
+            "pan": "RSLTL9146G",
+            "credit_score": 307
+        },
+        {
+            "pan": "EKKCA4083E",
+            "credit_score": 776
+        },
+        {
+            "pan": "HBSFA3450U",
+            "credit_score": 600
+        },
+        {
+            "pan": "VGQFC9894Y",
+            "credit_score": 556
+        },
+        {
+            "pan": "JZKFH9871Y",
+            "credit_score": 415
+        },
+        {
+            "pan": "LVXPW5341I",
+            "credit_score": 674
+        },
+        {
+            "pan": "CBLFT3569M",
+            "credit_score": 671
+        },
+        {
+            "pan": "HIGTG4696Q",
+            "credit_score": 629
+        },
+        {
+            "pan": "GUGFR3890L",
+            "credit_score": 507
+        },
+        {
+            "pan": "GJHTP7791X",
+            "credit_score": 882
+        },
+        {
+            "pan": "PIRHD0263K",
+            "credit_score": 424
+        },
+        {
+            "pan": "CCKAB8404P",
+            "credit_score": 330
+        },
+        {
+            "pan": "BNMFL8953H",
+            "credit_score": 412
+        },
+        {
+            "pan": "MDECR7178H",
+            "credit_score": 337
+        },
+        {
+            "pan": "ASSAE3719A",
+            "credit_score": 452
+        },
+        {
+            "pan": "ORSPS3838Y",
+            "credit_score": 499
+        },
+        {
+            "pan": "WDRHS7149C",
+            "credit_score": 388
+        },
+        {
+            "pan": "QUAAC7982H",
+            "credit_score": 790
+        },
+        {
+            "pan": "GFUFG3174U",
+            "credit_score": 748
+        },
+        {
+            "pan": "XEEPE5765R",
+            "credit_score": 746
+        },
+        {
+            "pan": "AWPPH4030T",
+            "credit_score": 337
+        },
+        {
+            "pan": "KOWHT1774W",
+            "credit_score": 339
+        },
+        {
+            "pan": "HEMPB9120A",
+            "credit_score": 788
+        },
+        {
+            "pan": "BSTFB5508Y",
+            "credit_score": 695
+        },
+        {
+            "pan": "CEAHA2722H",
+            "credit_score": 553
+        },
+        {
+            "pan": "OJVHW4580U",
+            "credit_score": 385
+        },
+        {
+            "pan": "XRIFS1970D",
+            "credit_score": 499
+        },
+        {
+            "pan": "SAPFR9325W",
+            "credit_score": 753
+        },
+        {
+            "pan": "MAWPS9860H",
+            "credit_score": 572
+        },
+        {
+            "pan": "SUJTJ5901E",
+            "credit_score": 557
+        },
+        {
+            "pan": "COFFM8490K",
+            "credit_score": 899
+        },
+        {
+            "pan": "EEJPK2356T",
+            "credit_score": 552
+        },
+        {
+            "pan": "HGJTK5382Y",
+            "credit_score": 461
+        },
+        {
+            "pan": "FXOCN4572H",
+            "credit_score": 463
+        },
+        {
+            "pan": "MMNPC5735C",
+            "credit_score": 343
+        },
+        {
+            "pan": "KPSPP0581S",
+            "credit_score": 440
+        },
+        {
+            "pan": "GWVCT3279F",
+            "credit_score": 600
+        },
+        {
+            "pan": "XWPFP1850A",
+            "credit_score": 341
+        },
+        {
+            "pan": "ERIFS7170L",
+            "credit_score": 755
+        },
+        {
+            "pan": "UKFFF1082S",
+            "credit_score": 747
+        },
+        {
+            "pan": "QRPPS4785Z",
+            "credit_score": 423
+        },
+        {
+            "pan": "ZRYCM3986Q",
+            "credit_score": 808
+        },
+        {
+            "pan": "JAMAS0806E",
+            "credit_score": 397
+        },
+        {
+            "pan": "VFGCM4083G",
+            "credit_score": 645
+        },
+        {
+            "pan": "OPQTB7122H",
+            "credit_score": 408
+        },
+        {
+            "pan": "LUJAD5911Q",
+            "credit_score": 433
+        },
+        {
+            "pan": "JSQCH5488E",
+            "credit_score": 539
+        },
+        {
+            "pan": "TPKCW7382D",
+            "credit_score": 583
+        },
+        {
+            "pan": "RTSCO6734P",
+            "credit_score": 873
+        },
+        {
+            "pan": "SWPHC5156K",
+            "credit_score": 503
+        },
+        {
+            "pan": "UASAB8567E",
+            "credit_score": 794
+        },
+        {
+            "pan": "PGRCA3416A",
+            "credit_score": 878
+        },
+        {
+            "pan": "QWLAG3978B",
+            "credit_score": 603
+        },
+        {
+            "pan": "XVTTA6699Q",
+            "credit_score": 735
+        },
+        {
+            "pan": "ITQTR8528J",
+            "credit_score": 323
+        },
+        {
+            "pan": "DTOCF8282S",
+            "credit_score": 805
+        },
+        {
+            "pan": "ARZAW7363V",
+            "credit_score": 845
+        },
+        {
+            "pan": "ZAYTW6737R",
+            "credit_score": 331
+        },
+        {
+            "pan": "DPCFD2874O",
+            "credit_score": 640
+        },
+        {
+            "pan": "HMSHW6340U",
+            "credit_score": 826
+        },
+        {
+            "pan": "REJPW4910O",
+            "credit_score": 676
+        },
+        {
+            "pan": "CCWHF8604D",
+            "credit_score": 760
+        },
+        {
+            "pan": "YAECH7054P",
+            "credit_score": 595
+        },
+        {
+            "pan": "XONHJ8322G",
+            "credit_score": 757
+        },
+        {
+            "pan": "LIRPD5461V",
+            "credit_score": 565
+        },
+        {
+            "pan": "FEPPP8628U",
+            "credit_score": 458
+        },
+        {
+            "pan": "YUJAY9293D",
+            "credit_score": 301
+        },
+        {
+            "pan": "UFBAM9782I",
+            "credit_score": 778
+        },
+        {
+            "pan": "NXMHC0751F",
+            "credit_score": 598
+        },
+        {
+            "pan": "GSZTC0413A",
+            "credit_score": 346
+        },
+        {
+            "pan": "ZGKFW3735E",
+            "credit_score": 367
+        },
+        {
+            "pan": "WAEHC0200G",
+            "credit_score": 454
+        },
+        {
+            "pan": "BCPAK3248M",
+            "credit_score": 540
+        },
+        {
+            "pan": "ZIHCB6372F",
+            "credit_score": 307
+        },
+        {
+            "pan": "GUKCR9063X",
+            "credit_score": 800
+        },
+        {
+            "pan": "ZTZCJ5431E",
+            "credit_score": 346
+        },
+        {
+            "pan": "KQDTW3922V",
+            "credit_score": 408
+        },
+        {
+            "pan": "VTYCB7146W",
+            "credit_score": 504
+        },
+        {
+            "pan": "UGMCH0390P",
+            "credit_score": 590
+        },
+        {
+            "pan": "PWDTB2166V",
+            "credit_score": 652
+        },
+        {
+            "pan": "EWOFW8348E",
+            "credit_score": 342
+        },
+        {
+            "pan": "XFWAC4256B",
+            "credit_score": 425
+        },
+        {
+            "pan": "GORHF8154V",
+            "credit_score": 304
+        },
+        {
+            "pan": "DMFFC4408M",
+            "credit_score": 446
+        },
+        {
+            "pan": "PZBFG0856T",
+            "credit_score": 454
+        },
+        {
+            "pan": "DPRHS7544I",
+            "credit_score": 351
+        },
+        {
+            "pan": "OVXPM4600Z",
+            "credit_score": 597
+        },
+        {
+            "pan": "MFHTC2416R",
+            "credit_score": 857
+        },
+        {
+            "pan": "TXXPC0666P",
+            "credit_score": 348
+        },
+        {
+            "pan": "GDZTB1531Y",
+            "credit_score": 312
+        },
+        {
+            "pan": "FBVPB9038H",
+            "credit_score": 810
+        },
+        {
+            "pan": "VMCFM6231H",
+            "credit_score": 344
+        },
+        {
+            "pan": "KNJFD3412V",
+            "credit_score": 773
+        },
+        {
+            "pan": "RAKFB0202S",
+            "credit_score": 317
+        },
+        {
+            "pan": "HGQCL2538M",
+            "credit_score": 503
+        },
+        {
+            "pan": "KVUPH4368Y",
+            "credit_score": 880
+        },
+        {
+            "pan": "JHNPT7681D",
+            "credit_score": 817
+        },
+        {
+            "pan": "PHVHE6890R",
+            "credit_score": 518
+        },
+        {
+            "pan": "CQNFT2081S",
+            "credit_score": 686
+        },
+        {
+            "pan": "SJFCB9899V",
+            "credit_score": 781
+        },
+        {
+            "pan": "PEEPL0515H",
+            "credit_score": 461
+        },
+        {
+            "pan": "QILCS2311B",
+            "credit_score": 691
+        },
+        {
+            "pan": "BWTTB0867R",
+            "credit_score": 591
+        },
+        {
+            "pan": "AUGTM6383A",
+            "credit_score": 586
+        },
+        {
+            "pan": "DABPC3312Y",
+            "credit_score": 355
+        },
+        {
+            "pan": "SEJAH3748C",
+            "credit_score": 639
+        },
+        {
+            "pan": "BQYHC8828H",
+            "credit_score": 704
+        },
+        {
+            "pan": "CXZFS5593K",
+            "credit_score": 882
+        },
+        {
+            "pan": "ADQHB0704E",
+            "credit_score": 640
+        },
+        {
+            "pan": "RBFPL8478R",
+            "credit_score": 392
+        },
+        {
+            "pan": "ZUXAA4468C",
+            "credit_score": 487
+        },
+        {
+            "pan": "JYYCB2356L",
+            "credit_score": 643
+        },
+        {
+            "pan": "NYJAW9645P",
+            "credit_score": 880
+        },
+        {
+            "pan": "RTRTB2817G",
+            "credit_score": 662
+        },
+        {
+            "pan": "SRCTW9536F",
+            "credit_score": 733
+        },
+        {
+            "pan": "ABBCA9390B",
+            "credit_score": 472
+        },
+        {
+            "pan": "HJSCM7501U",
+            "credit_score": 880
+        },
+        {
+            "pan": "FXBHD1266H",
+            "credit_score": 480
+        },
+        {
+            "pan": "ILKHH8020Y",
+            "credit_score": 395
+        },
+        {
+            "pan": "VMGCM0850N",
+            "credit_score": 748
+        },
+        {
+            "pan": "JGWPF7912K",
+            "credit_score": 811
+        },
+        {
+            "pan": "YBLTR5476S",
+            "credit_score": 741
+        },
+        {
+            "pan": "XJYCM5691B",
+            "credit_score": 865
+        },
+        {
+            "pan": "OXKFP3979R",
+            "credit_score": 495
+        },
+        {
+            "pan": "URIAD2691Q",
+            "credit_score": 605
+        },
+        {
+            "pan": "LMXHR6889L",
+            "credit_score": 382
+        },
+        {
+            "pan": "TNSPJ0925A",
+            "credit_score": 657
+        },
+        {
+            "pan": "KAUTP3025S",
+            "credit_score": 665
+        },
+        {
+            "pan": "LDTFW7249O",
+            "credit_score": 335
+        },
+        {
+            "pan": "LJZFU7183I",
+            "credit_score": 613
+        },
+        {
+            "pan": "ZMWFA3512E",
+            "credit_score": 757
+        },
+        {
+            "pan": "TQEFA0635S",
+            "credit_score": 723
+        },
+        {
+            "pan": "GORAM9820W",
+            "credit_score": 753
+        },
+        {
+            "pan": "JJGFH1521O",
+            "credit_score": 661
+        },
+        {
+            "pan": "TLSPC4526V",
+            "credit_score": 369
+        },
+        {
+            "pan": "ZEBCC9017N",
+            "credit_score": 696
+        },
+        {
+            "pan": "ZCDAC2537N",
+            "credit_score": 892
+        },
+        {
+            "pan": "OIMCJ5595L",
+            "credit_score": 455
+        },
+        {
+            "pan": "RLYHR6625S",
+            "credit_score": 338
+        },
+        {
+            "pan": "PFBCM7190B",
+            "credit_score": 779
+        },
+        {
+            "pan": "DATPW4761W",
+            "credit_score": 857
+        },
+        {
+            "pan": "NHZCG7293B",
+            "credit_score": 796
+        },
+        {
+            "pan": "LBVFG5201E",
+            "credit_score": 373
+        },
+        {
+            "pan": "NHBHH0633Q",
+            "credit_score": 713
+        },
+        {
+            "pan": "PRGFS0344H",
+            "credit_score": 437
+        },
+        {
+            "pan": "MBPAC3089I",
+            "credit_score": 469
+        },
+        {
+            "pan": "GKLCD4007G",
+            "credit_score": 471
+        },
+        {
+            "pan": "XQBPG4186Y",
+            "credit_score": 438
+        },
+        {
+            "pan": "MQWFJ8999Q",
+            "credit_score": 304
+        },
+        {
+            "pan": "YNNCM0447S",
+            "credit_score": 354
+        },
+        {
+            "pan": "FCHFS0818T",
+            "credit_score": 361
+        },
+        {
+            "pan": "BHTAD0946I",
+            "credit_score": 724
+        },
+        {
+            "pan": "RVFCR8620V",
+            "credit_score": 891
+        },
+        {
+            "pan": "HAHPF7568T",
+            "credit_score": 468
+        },
+        {
+            "pan": "DGSTS7194U",
+            "credit_score": 596
+        },
+        {
+            "pan": "VIVCM5268O",
+            "credit_score": 360
+        },
+        {
+            "pan": "BSPPS9609J",
+            "credit_score": 655
+        },
+        {
+            "pan": "BCCFB3529U",
+            "credit_score": 572
+        },
+        {
+            "pan": "SIZPE7973I",
+            "credit_score": 803
+        },
+        {
+            "pan": "KCWFG1430C",
+            "credit_score": 527
+        },
+        {
+            "pan": "EEHHL1331L",
+            "credit_score": 377
+        },
+        {
+            "pan": "ULQFM9967M",
+            "credit_score": 782
+        },
+        {
+            "pan": "LKBPH3675H",
+            "credit_score": 342
+        },
+        {
+            "pan": "BZSTB5249V",
+            "credit_score": 453
+        },
+        {
+            "pan": "DVLFW1295O",
+            "credit_score": 598
+        },
+        {
+            "pan": "FSWTG9019M",
+            "credit_score": 740
+        },
+        {
+            "pan": "RXRHH8075P",
+            "credit_score": 617
+        },
+        {
+            "pan": "REEHL1310W",
+            "credit_score": 383
+        },
+        {
+            "pan": "SBMHJ2195G",
+            "credit_score": 600
+        },
+        {
+            "pan": "BGAFL3045S",
+            "credit_score": 517
+        },
+        {
+            "pan": "QPTPA5213L",
+            "credit_score": 329
+        },
+        {
+            "pan": "GYHHE5608J",
+            "credit_score": 809
+        },
+        {
+            "pan": "WZSAB3540D",
+            "credit_score": 328
+        },
+        {
+            "pan": "SFDAF4872N",
+            "credit_score": 311
+        },
+        {
+            "pan": "FJPCF0760H",
+            "credit_score": 863
+        },
+        {
+            "pan": "RDJFG8813L",
+            "credit_score": 373
+        },
+        {
+            "pan": "EWDHA9686S",
+            "credit_score": 444
+        },
+        {
+            "pan": "CIVPH8020K",
+            "credit_score": 759
+        },
+        {
+            "pan": "WNVTN0383L",
+            "credit_score": 613
+        },
+        {
+            "pan": "UACPC2838O",
+            "credit_score": 500
+        },
+        {
+            "pan": "VJSFB6970Z",
+            "credit_score": 491
+        },
+        {
+            "pan": "VKUCD3145M",
+            "credit_score": 334
+        },
+        {
+            "pan": "NCZCL8317U",
+            "credit_score": 728
+        },
+        {
+            "pan": "PRQHS3334R",
+            "credit_score": 690
+        },
+        {
+            "pan": "NTQHR6368Y",
+            "credit_score": 635
+        },
+        {
+            "pan": "IEWCG7745Q",
+            "credit_score": 377
+        },
+        {
+            "pan": "KHXTG8084P",
+            "credit_score": 848
+        },
+        {
+            "pan": "SMKTT9924D",
+            "credit_score": 424
+        },
+        {
+            "pan": "HRTCN7355I",
+            "credit_score": 406
+        },
+        {
+            "pan": "FHCTK1219Z",
+            "credit_score": 517
+        },
+        {
+            "pan": "YYVTR3187L",
+            "credit_score": 726
+        },
+        {
+            "pan": "TUWFJ3725A",
+            "credit_score": 619
+        },
+        {
+            "pan": "RYOTH2328W",
+            "credit_score": 753
+        },
+        {
+            "pan": "KLNAR2201F",
+            "credit_score": 348
+        },
+        {
+            "pan": "KXGAB0849Q",
+            "credit_score": 313
+        },
+        {
+            "pan": "HQUPJ5751W",
+            "credit_score": 772
+        },
+        {
+            "pan": "SXLHC1138C",
+            "credit_score": 414
+        },
+        {
+            "pan": "LGSPW0125J",
+            "credit_score": 741
+        },
+        {
+            "pan": "TKJCC3606Y",
+            "credit_score": 323
+        },
+        {
+            "pan": "BWUCW2089O",
+            "credit_score": 304
+        },
+        {
+            "pan": "BKRHW8817D",
+            "credit_score": 629
+        },
+        {
+            "pan": "XTLTR2437Q",
+            "credit_score": 522
+        },
+        {
+            "pan": "PZQHW2775T",
+            "credit_score": 321
+        },
+        {
+            "pan": "NNSTH4086W",
+            "credit_score": 572
+        },
+        {
+            "pan": "PVNAY0330A",
+            "credit_score": 420
+        },
+        {
+            "pan": "ZEJAD8536M",
+            "credit_score": 395
+        },
+        {
+            "pan": "ZHNAS3918F",
+            "credit_score": 311
+        },
+        {
+            "pan": "ZARAN1716B",
+            "credit_score": 830
+        },
+        {
+            "pan": "YUWFW3656F",
+            "credit_score": 401
+        },
+        {
+            "pan": "ZABTH5075A",
+            "credit_score": 476
+        },
+        {
+            "pan": "SZSTN7712K",
+            "credit_score": 405
+        },
+        {
+            "pan": "CMLPC1142Z",
+            "credit_score": 432
+        },
+        {
+            "pan": "AYXFS3685A",
+            "credit_score": 820
+        },
+        {
+            "pan": "EWNFS6937S",
+            "credit_score": 531
+        },
+        {
+            "pan": "PKXHW0525E",
+            "credit_score": 399
+        },
+        {
+            "pan": "QSJPW1369I",
+            "credit_score": 630
+        },
+        {
+            "pan": "OIGHC8701I",
+            "credit_score": 862
+        },
+        {
+            "pan": "NZBAM2851K",
+            "credit_score": 807
+        },
+        {
+            "pan": "YPBTW2580A",
+            "credit_score": 755
+        },
+        {
+            "pan": "LIGTS6481W",
+            "credit_score": 431
+        },
+        {
+            "pan": "FGAHP5576X",
+            "credit_score": 437
+        },
+        {
+            "pan": "QIYPR7878N",
+            "credit_score": 738
+        },
+        {
+            "pan": "KSDFV9364N",
+            "credit_score": 794
+        },
+        {
+            "pan": "MIKTC7615L",
+            "credit_score": 838
+        },
+        {
+            "pan": "HURFM5870P",
+            "credit_score": 843
+        },
+        {
+            "pan": "ONQHD1070K",
+            "credit_score": 667
+        },
+        {
+            "pan": "FBIHK6687N",
+            "credit_score": 813
+        },
+        {
+            "pan": "IBZPF6730B",
+            "credit_score": 826
+        },
+        {
+            "pan": "JULPE2275P",
+            "credit_score": 802
+        },
+        {
+            "pan": "GKWFS6872C",
+            "credit_score": 582
+        },
+        {
+            "pan": "PBBHD9341B",
+            "credit_score": 579
+        },
+        {
+            "pan": "GTYHH5290D",
+            "credit_score": 376
+        },
+        {
+            "pan": "AHVCR0720W",
+            "credit_score": 525
+        },
+        {
+            "pan": "LBATP6300A",
+            "credit_score": 768
+        },
+        {
+            "pan": "OZDAA2192P",
+            "credit_score": 512
+        },
+        {
+            "pan": "LIXHC1570N",
+            "credit_score": 810
+        },
+        {
+            "pan": "KKZPP0255Z",
+            "credit_score": 539
+        },
+        {
+            "pan": "ZUGAT6087V",
+            "credit_score": 513
+        },
+        {
+            "pan": "XXAFM9377Z",
+            "credit_score": 354
+        },
+        {
+            "pan": "GJTFF6541F",
+            "credit_score": 446
+        },
+        {
+            "pan": "PDWPH1078N",
+            "credit_score": 745
+        },
+        {
+            "pan": "NBXTC4246R",
+            "credit_score": 518
+        },
+        {
+            "pan": "YYTPB4651E",
+            "credit_score": 864
+        },
+        {
+            "pan": "KZTHS0772F",
+            "credit_score": 803
+        },
+        {
+            "pan": "LAGFZ0078K",
+            "credit_score": 599
+        },
+        {
+            "pan": "NQUPG7536J",
+            "credit_score": 359
+        },
+        {
+            "pan": "BXUCH2607B",
+            "credit_score": 571
+        },
+        {
+            "pan": "HOGPR2483S",
+            "credit_score": 590
+        },
+        {
+            "pan": "FJKTW4211O",
+            "credit_score": 753
+        },
+        {
+            "pan": "NBYAH5229C",
+            "credit_score": 557
+        },
+        {
+            "pan": "OXQTB8939H",
+            "credit_score": 622
+        },
+        {
+            "pan": "LUAAT3949H",
+            "credit_score": 707
+        },
+        {
+            "pan": "OFBTM1808K",
+            "credit_score": 376
+        },
+        {
+            "pan": "WWPHH7908O",
+            "credit_score": 686
+        },
+        {
+            "pan": "ROPFJ8052G",
+            "credit_score": 789
+        },
+        {
+            "pan": "FNBAB4423A",
+            "credit_score": 488
+        },
+        {
+            "pan": "JSUHM9081I",
+            "credit_score": 714
+        },
+        {
+            "pan": "NVWHL6374V",
+            "credit_score": 329
+        },
+        {
+            "pan": "MUZAW9672K",
+            "credit_score": 539
+        },
+        {
+            "pan": "BAATB9801H",
+            "credit_score": 801
+        },
+        {
+            "pan": "YUCTC7142P",
+            "credit_score": 900
+        },
+        {
+            "pan": "VTICS4585I",
+            "credit_score": 445
+        },
+        {
+            "pan": "JJGTO4431W",
+            "credit_score": 636
+        },
+        {
+            "pan": "EFVPE0929O",
+            "credit_score": 669
+        },
+        {
+            "pan": "NLLTH1915E",
+            "credit_score": 704
+        },
+        {
+            "pan": "WQUHG9823C",
+            "credit_score": 619
+        },
+        {
+            "pan": "QGUPC2988B",
+            "credit_score": 625
+        },
+        {
+            "pan": "IRGTH9439U",
+            "credit_score": 451
+        },
+        {
+            "pan": "IBWPM7478Z",
+            "credit_score": 501
+        },
+        {
+            "pan": "WHTHM7516B",
+            "credit_score": 588
+        },
+        {
+            "pan": "EZWAW3629H",
+            "credit_score": 364
+        },
+        {
+            "pan": "RJPAW0145E",
+            "credit_score": 832
+        },
+        {
+            "pan": "PKJAT1657P",
+            "credit_score": 598
+        },
+        {
+            "pan": "UKCPG2592P",
+            "credit_score": 595
+        },
+        {
+            "pan": "GRDAV8379O",
+            "credit_score": 895
+        },
+        {
+            "pan": "YNVHN7039B",
+            "credit_score": 370
+        },
+        {
+            "pan": "WTXPF4525Y",
+            "credit_score": 830
+        },
+        {
+            "pan": "NFLTW6776L",
+            "credit_score": 495
+        },
+        {
+            "pan": "WVWAV3501G",
+            "credit_score": 449
+        },
+        {
+            "pan": "NRUPP3788H",
+            "credit_score": 873
+        },
+        {
+            "pan": "FMUPR6219Q",
+            "credit_score": 348
+        },
+        {
+            "pan": "QXKHB4494M",
+            "credit_score": 791
+        },
+        {
+            "pan": "MGNPT7788R",
+            "credit_score": 352
+        },
+        {
+            "pan": "EOYAE9509H",
+            "credit_score": 579
+        },
+        {
+            "pan": "TLDTB4661S",
+            "credit_score": 770
+        },
+        {
+            "pan": "EPSPL5129S",
+            "credit_score": 399
+        },
+        {
+            "pan": "RQHAC3408K",
+            "credit_score": 322
+        },
+        {
+            "pan": "XDQFJ0522M",
+            "credit_score": 707
+        },
+        {
+            "pan": "BZUTM6434O",
+            "credit_score": 718
+        },
+        {
+            "pan": "CTVHE4500N",
+            "credit_score": 437
+        },
+        {
+            "pan": "AHMAJ9573Y",
+            "credit_score": 889
+        },
+        {
+            "pan": "VWIPD4043Q",
+            "credit_score": 469
+        },
+        {
+            "pan": "RJKFS6211O",
+            "credit_score": 337
+        },
+        {
+            "pan": "EWJHD8520R",
+            "credit_score": 885
+        },
+        {
+            "pan": "LKIPP2101X",
+            "credit_score": 756
+        },
+        {
+            "pan": "OKNCV3526T",
+            "credit_score": 313
+        },
+        {
+            "pan": "WXHFM3716P",
+            "credit_score": 865
+        },
+        {
+            "pan": "XWXHM9595G",
+            "credit_score": 815
+        },
+        {
+            "pan": "CLNHS5657X",
+            "credit_score": 564
+        },
+        {
+            "pan": "TDBPW3013Y",
+            "credit_score": 305
+        },
+        {
+            "pan": "JBYPB1860G",
+            "credit_score": 742
+        },
+        {
+            "pan": "TNVPB3360R",
+            "credit_score": 363
+        },
+        {
+            "pan": "SBTPH4605E",
+            "credit_score": 581
+        },
+        {
+            "pan": "MHNCP3486I",
+            "credit_score": 829
+        },
+        {
+            "pan": "VKHHW3353W",
+            "credit_score": 715
+        }
+    ]
+}
