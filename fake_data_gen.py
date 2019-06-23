@@ -2,6 +2,7 @@ from faker import Faker
 from random import randint
 from pprint import pprint
 from json import dump
+from name_gen import random_name
 
 fake = Faker()
 list_to_str = lambda arr: ''.join(arr)
@@ -31,7 +32,7 @@ def pan_generator(pan_name):
     return first_three_chars+fourth_char+fifth_char+next_four_chars+last_char
 
 for i in range(no_of_entries):
-    name = fake.name()
+    name = random_name() # fake.name()
     pan = pan_generator(name)
     dob = fake.date()
     pan_details = {
