@@ -3,8 +3,10 @@ from random import randint
 from pprint import pprint
 from json import dump
 from name_gen import random_name
+from googletrans import Translator
 
 fake = Faker()
+translator = Translator()
 list_to_str = lambda arr: ''.join(arr)
 no_of_entries = 1000
 pan_data = []
@@ -42,7 +44,7 @@ for i in range(no_of_entries):
         'name': name,
         'dob': dob
     }
-    address = fake.address()
+    address = translator.translate(Faker('hi-IN').address()).text
     aadhar_number = [str(randint(0,9)) for i in range(12)]
     aadhar_number = list_to_str(aadhar_number)
     aadhar_details = {
