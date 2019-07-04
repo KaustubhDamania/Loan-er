@@ -8,7 +8,8 @@ from wtforms import StringField,SubmitField
 from wtforms.validators import DataRequired
 
 app = Flask(__name__)
-app.config['SECRET_KEY']='5791628bb0b13ce0c676dfde280ba245'
+SECRET_KEY = os.urandom(32)
+app.config['SECRET_KEY'] = SECRET_KEY
 
 class MessageBox(FlaskForm):
     message = StringField('Message', validators=[DataRequired()])
