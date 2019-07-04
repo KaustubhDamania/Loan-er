@@ -66,6 +66,13 @@ def dbcheck():
     search("Namasri Bhanushali") #107th entry
     return 'Hellow'
 
+@app.route('/lang',methods=['GET','POST'])
+def lang():
+    from langdetect import detect_langs
+    message = 'hi'
+    languages = detect_langs(message)
+    languages = [language.lang for language in languages]
+    return message+' '+str(languages)
 
 
 if __name__=='__main__':
