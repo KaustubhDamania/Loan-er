@@ -51,12 +51,15 @@ def get_response():
     if form.validate_on_submit():
         message = form.message.data
         # print('message',message)
-        languages = detect_langs(message)
-        languages = [item.lang for item in languages]
-        for lang in languages:
-            if lang in ['ne','mr','hi']:
-                language_code = 'hi'
-                break
+        try:
+            languages = detect_langs(message)
+            languages = [item.lang for item in languages]
+            for lang in languages:
+                if lang in ['ne','mr','hi']:
+                    language_code = 'hi'
+                    break
+        except Exception as e:
+            pass
 
         if language_code == 'hi':
             message = translator.translate(message, src='hi', dest='en').text
@@ -69,15 +72,21 @@ def get_response():
         # pattern = re.compile(r':(\D)+:')
         pattern = re.compile(r':(.*?):')
         emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
+        print('fulfillment_msg',fulfillment_msg)
         print('emoji_indices', emoji_indices)
 
-        for i,j in emoji_indices:
-            print('emoji',fulfillment_msg[i:j])
+        # for i,j in emoji_indices:
+        while len(emoji_indices)>0:
+            i,j = emoji_indices[0]
+            print('emoji',fulfillment_msg[i:j],i,j)
             translated_text = translator.translate(fulfillment_msg[i:j], src='hi', dest='en').text
             translated_text = translated_text[0]+translated_text[1:-1].strip().lower()+translated_text[-1]
             print('translated_text',translated_text)
             translated_emoji = emojize(translated_text)
             fulfillment_msg = fulfillment_msg[:i]+translated_emoji+fulfillment_msg[j:]
+            emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
+            if len(emoji_indices)>0:
+                emoji_indices.pop(0)
 
     print(fulfillment_msg)
     return render_template('tp.html',form=form,a=fulfillment_msg)
