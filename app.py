@@ -42,6 +42,29 @@ def get_fulfillment_texts(message, project_id):
 
     return fulfillment_msg, fulfillment_text
 
+def convert_to_hi(fulfillment_msg):
+    fulfillment_msg = demojize(fulfillment_msg)
+    fulfillment_msg = translator.translate(fulfillment_msg, src='en', dest='hi').text
+    # pattern = re.compile(r':(\D)+:')
+    pattern = re.compile(r':(.*?):')
+    emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
+    print('fulfillment_msg',fulfillment_msg)
+    print('emoji_indices', emoji_indices)
+
+    # for i,j in emoji_indices:
+    while len(emoji_indices)>0:
+        i,j = emoji_indices[0]
+        print('emoji',fulfillment_msg[i:j],i,j)
+        translated_text = translator.translate(fulfillment_msg[i:j], src='hi', dest='en').text
+        translated_text = translated_text[0]+translated_text[1:-1].strip().lower()+translated_text[-1]
+        print('translated_text',translated_text)
+        translated_emoji = emojize(translated_text)
+        fulfillment_msg = fulfillment_msg[:i]+translated_emoji+fulfillment_msg[j:]
+        emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
+        print('emoji_indices',emoji_indices)
+
+    return fulfillment_msg
+
 
 @app.route('/',methods=['GET','POST'])
 def get_response():
@@ -63,29 +86,13 @@ def get_response():
 
         if language_code == 'hi':
             message = translator.translate(message, src='hi', dest='en').text
+
         project_id = os.getenv('DIALOGFLOW_PROJECT_ID')
         fulfillment_msg, fulfillment_text = get_fulfillment_texts(message, project_id)
         print('message',message)
-    if language_code == 'hi':
-        fulfillment_msg = demojize(fulfillment_msg)
-        fulfillment_msg = translator.translate(fulfillment_msg, src='en', dest='hi').text
-        # pattern = re.compile(r':(\D)+:')
-        pattern = re.compile(r':(.*?):')
-        emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
-        print('fulfillment_msg',fulfillment_msg)
-        print('emoji_indices', emoji_indices)
 
-        # for i,j in emoji_indices:
-        while len(emoji_indices)>0:
-            i,j = emoji_indices[0]
-            print('emoji',fulfillment_msg[i:j],i,j)
-            translated_text = translator.translate(fulfillment_msg[i:j], src='hi', dest='en').text
-            translated_text = translated_text[0]+translated_text[1:-1].strip().lower()+translated_text[-1]
-            print('translated_text',translated_text)
-            translated_emoji = emojize(translated_text)
-            fulfillment_msg = fulfillment_msg[:i]+translated_emoji+fulfillment_msg[j:]
-            emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
-            print('emoji_indices',emoji_indices)
+    if language_code == 'hi':
+        fulfillment_msg = convert_to_hi(fulfillment_msg)
 
     print(fulfillment_msg)
     return render_template('tp.html',form=form,a=fulfillment_msg)

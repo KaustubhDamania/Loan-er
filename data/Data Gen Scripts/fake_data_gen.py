@@ -64,9 +64,9 @@ for i in range(no_of_entries):
 # pprint(pan_data[:5])
 # pprint(credit_score_data[:5])
 # pprint(aadhar_data[:5])
-list_to_json(pan_data,'pan_data.json')
-list_to_json(aadhar_data,'aadhar_data.json')
-list_to_json(credit_score_data,'credit_score_data.json')
+list_to_json(pan_data,'../pan_data.json')
+list_to_json(aadhar_data,'../aadhar_data.json')
+list_to_json(credit_score_data,'../credit_score_data.json')
 
-with open('combined_data.json','w') as fp:
+with open('../combined_data.json','w') as fp:
     dump(combined_json,fp,indent=4)
