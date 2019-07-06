@@ -85,8 +85,7 @@ def get_response():
             translated_emoji = emojize(translated_text)
             fulfillment_msg = fulfillment_msg[:i]+translated_emoji+fulfillment_msg[j:]
             emoji_indices = [m.span() for m in re.finditer(pattern,fulfillment_msg)]
-            if len(emoji_indices)>0:
-                emoji_indices.pop(0)
+            print('emoji_indices',emoji_indices)
 
     print(fulfillment_msg)
     return render_template('tp.html',form=form,a=fulfillment_msg)
