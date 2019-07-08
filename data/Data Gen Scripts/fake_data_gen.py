@@ -70,3 +70,5 @@ list_to_json(credit_score_data,'../credit_score_data.json')
 
 with open('../combined_data.json','w') as fp:
     dump(combined_json,fp,indent=4)
+
+# TODO: bank table:  name, bank_acc_no, ifsc, bank_name, bank_branch
