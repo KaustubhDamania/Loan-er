@@ -1,6 +1,9 @@
-from flask import Flask,request,url_for,jsonify,abort
+from flask import Flask,request,url_for,jsonify,render_template
 import os
 from pprint import pprint, pformat
+from flask_wtf import FlaskForm
+from wtforms import StringField,SubmitField
+from wtforms.validators import DataRequired
 import firebase_admin
 from firebase_admin import credentials
 app = Flask(__name__)
@@ -21,6 +24,10 @@ intents = [
                 'Bank details'
            ]
 user_data = {i:None for i in data_fields}
+
+class MessageBox(FlaskForm):
+    message = StringField('Message', validators=[DataRequired()])
+    submit = SubmitField('Send')
 
 def detect_intent_texts(project_id, session_id, text, language_code):
     import dialogflow
@@ -85,7 +92,16 @@ def myapi():
         print('message',message)
         project_id = os.getenv('DIALOGFLOW_PROJECT_ID')
         fulfillment_text, fulfillment_msg, response = detect_intent_texts(project_id, "unique", message, 'en')
-        response = {'reply':fulfillment_msg}
+        response = {
+            "intent": intent,
+            "fulfillmentText": fulfillment_text,
+            "fulfillmentMessages": [
+                {
+                    "text": {
+                        "text":[fulfillment_msg]
+                    }
+                }]
+        }
         return jsonify(response)
     return jsonify({'reply':''})
 
@@ -170,6 +186,22 @@ def get():
     # bytes.decode(req)
     print(req)
     return 'This works!'+'<br>'+str(req)
+
+@app.route('/frontend',methods=['GET','POST'])
+def get_response():
+    form = MessageBox()
+    # text_input, query_input, response,fulfillment_msg, fulfillment_text = [None]*5
+    # language_code = 'en'
+    fulfillment_msg = None
+    if form.validate_on_submit():
+        import requests
+        message = form.message.data
+        print('url',request.url+'myapi')
+        print('message',message)
+        response = requests.post(url=request.url+'myapi',data=message.encode('utf-8'))
+        response = json.loads(response.text)
+        fulfillment_msg = response.get('fulfillmentText')
+    return render_template('tp.html',form=form,a=fulfillment_msg)
 
 if __name__=='__main__':
     app.run()

@@ -5,3 +5,5 @@ __pycache__
 node_modules
 config.js
 serviceAccount.json
+/data/Data Gen Scripts/geckodriver
+/data/Data Gen Scripts/geckodriver.log
