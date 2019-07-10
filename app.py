@@ -24,6 +24,7 @@ document_name = token_hex(16)
 fields = ['aadhar_no','aadhar_pic1','aadhar_pic2','bank_acc','email','ifsc','loan_amt',
         'loan_duration','name','pan','pan_photo','phone_no']
 user_data = {i:None for i in fields}
+isHindi = False
 
 def pan_check(pan):
     if len(pan)!=10:
@@ -92,6 +93,8 @@ def convert_to_hi(fulfillment_msg):
     return fulfillment_msg
 
 def get_language_code(message):
+    if isHindi:
+        return 'hi'
     language_code = 'en'
     try:
         languages = detect_langs(message)
@@ -99,6 +102,7 @@ def get_language_code(message):
         for lang in languages:
             if lang in ['ne','mr','hi']:
                 language_code = 'hi'
+                isHindi = True
                 break
     except Exception as e:
         pass
