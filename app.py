@@ -10,13 +10,6 @@ from googletrans import Translator
 from emoji import emojize, demojize
 from datetime import timedelta
 import re
-# r.post(url='http://127.0.0.1:5000/myapi',data='hey').text
-# r.post(url='http://127.0.0.1:5000/myapi',data='kaustubh damania').text
-# r.post(url='http://127.0.0.1:5000/myapi',data='50000').text
-# r.post(url='http://127.0.0.1:5000/myapi',data='5 months').text
-# r.post(url='http://127.0.0.1:5000/myapi',data='hey@xyz.com').text
-# r.post(url='http://127.0.0.1:5000/myapi',data='my pan is WGLFd3954F').text
-# r.post(url='http://localhost:5000/myapi',files={'media':open('/home/kaustubhdamania/pic.jpg','rb')}).text
 
 app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
@@ -53,8 +46,8 @@ def get_fulfillment_texts(message, project_id):
         query_input = dialogflow.types.QueryInput(text=text_input)
         response = session_client.detect_intent(session=session,
                                                 query_input=query_input)
-        # print('RESPONSE')
-        # pprint(response)
+        print('RESPONSE')
+        pprint(response)
 
     if response:
         fulfillment_msg = response.query_result.fulfillment_text
@@ -67,7 +60,7 @@ def get_fulfillment_texts(message, project_id):
                     'text': [item.text.text[0]]
                 }
             })
-        print(new_arr)
+        print('fulfillment_arr',new_arr)
         # if str(fulfillment_arr[0].text.text[0]) != '':
         #     fulfillment_text = fulfillment_arr[0].text.text[0]
         # else:
@@ -215,28 +208,41 @@ def myapi():
                         pan = word
                         break
             print('pan is',pan)
-            user_data['pan']=pan
+            user_data['pan'] = pan
 
         elif intent_name=='PAN pic upload':
             upload_pic(filename)
             user_data['pan_photo'] = filename
+            count += 1
             os.remove(filename)
 
         elif intent_name=='Aadhar number':
-            print('aadhar is',response.query_result.output_contexts[-1].parameters['aadhar'])
-            user_data['aadhar_no'] = response.query_result.output_contexts[-1].parameters['aadhar']
+            print('aadhar is',str(int(response.query_result.output_contexts[-1].parameters['aadhar'])))
+            user_data['aadhar_no'] = str(int(response.query_result.output_contexts[-1].parameters['aadhar']))
 
         elif intent_name=='Aadhar pic front':
             upload_pic(filename)
             user_data['aadhar_pic1'] = filename
+            count += 1
             os.remove(filename)
 
         elif intent_name=='Aadhar pic back':
             upload_pic(filename)
             user_data['aadhar_pic2'] = filename
             os.remove(filename)
+            pattern = re.compile(r'XXXX')
+            indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0])]
+            credit_score = db.collection(u'credit_score_data').document(document_name).get().to_dict().get('credit_score')
+            if credit_score < 500:
+                loaner = 0
+            else:
+                loaner = ((credit_score-500)/400)*int(user['loan_amt'])
+            first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+            latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+            fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
 
         elif intent_name=='Loan approved - yes':
+
             pass
         elif intent_name=='Loan approved - no':
             pass
