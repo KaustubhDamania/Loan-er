@@ -203,5 +203,29 @@ def get_response():
         fulfillment_msg = response.get('fulfillmentText')
     return render_template('tp.html',form=form,a=fulfillment_msg)
 
+@app.route('/storages',methods=['GET','POST'])
+def storages():
+    # from google.cloud import storage
+    from google.cloud import storage
+    from firebase import firebase
+    import os
+
+    # os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="<add your credentials path>"
+    firebase = firebase.FirebaseApplication('https://cabot-xuhseu.firebaseio.com')
+    client = storage.Client()
+    from secrets import token_hex
+    bucket = client.get_bucket('cabot-xuhseu.appspot.com')
+
+    # posting to firebase storage
+
+    imageBlob = bucket.blob("/")
+
+    # imagePath = [os.path.join(self.path,f) for f in os.listdir(self.path)]
+    imagePath = "/home/kaustubhdamania/pic.jpg"
+    imageBlob = bucket.blob("pic.jpg")
+    imageBlob.upload_from_filename(imagePath)
+    from datetime import timedelta
+    return 'It works!'+'<br>'+str(imageBlob.generate_signed_url(expiration=timedelta(hours=1),method='GET'))
+
 if __name__=='__main__':
     app.run()

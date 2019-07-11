@@ -4,10 +4,11 @@ import json
 import os
 import dialogflow
 from secrets import token_hex
-from google.cloud import firestore
+from google.cloud import firestore,storage
 from langdetect import detect_langs
 from googletrans import Translator
 from emoji import emojize, demojize
+from datetime import timedelta
 import re
 # r.post(url='http://127.0.0.1:5000/myapi',data='hey').text
 # r.post(url='http://127.0.0.1:5000/myapi',data='kaustubh damania').text
@@ -15,6 +16,8 @@ import re
 # r.post(url='http://127.0.0.1:5000/myapi',data='5 months').text
 # r.post(url='http://127.0.0.1:5000/myapi',data='hey@xyz.com').text
 # r.post(url='http://127.0.0.1:5000/myapi',data='my pan is WGLFd3954F').text
+# r.post(url='http://localhost:5000/myapi',files={'media':open('/home/kaustubhdamania/pic.jpg','rb')}).text
+
 app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
@@ -50,8 +53,8 @@ def get_fulfillment_texts(message, project_id):
         query_input = dialogflow.types.QueryInput(text=text_input)
         response = session_client.detect_intent(session=session,
                                                 query_input=query_input)
-        print('RESPONSE')
-        pprint(response)
+        # print('RESPONSE')
+        # pprint(response)
 
     if response:
         fulfillment_msg = response.query_result.fulfillment_text
@@ -93,8 +96,9 @@ def convert_to_hi(fulfillment_msg):
     return fulfillment_msg
 
 def get_language_code(message):
-    if isHindi:
-        return 'hi'
+    global isHindi
+    # if isHindi:
+    #     return 'hi'
     language_code = 'en'
     try:
         languages = detect_langs(message)
@@ -108,13 +112,29 @@ def get_language_code(message):
         pass
     return language_code
 
+def upload_pic(pic_name):
+    from firebase import firebase
+    firebase = firebase.FirebaseApplication('https://cabot-xuhseu.firebaseio.com')
+    client = storage.Client()
+    from secrets import token_hex
+    bucket = client.get_bucket('cabot-xuhseu.appspot.com')
+
+    # posting to firebase storage
+    imageBlob = bucket.blob("/")
+    imagePath = os.path.join(os.getcwd(),"{}".format(pic_name))
+    imageBlob = bucket.blob(pic_name)
+    imageBlob.upload_from_filename(imagePath)
+    # return str(imageBlob.generate_signed_url(expiration=timedelta(hours=1),
+                                            # method='GET'))
+
 check=False
 @app.route('/myapi', methods=['POST'])
 def myapi():
     global check
     import requests
-
+    key,filename='',''
     count=1
+
     #This jugaad ensures that the POST request sent by Dialogflow is not processed
     if not check:
         check=True
@@ -124,11 +144,15 @@ def myapi():
         if not request.files:
             message = bytes.decode(req)
         else:
-            file = request.files['media']
-            print(dir(file))
+            keys = request.files.keys()
+            for i in keys:
+                key=i
+            file = request.files[key]
+            # print(dir(file))
             # TODO: Upload this image to storage
-            file.save(os.path.join(os.getcwd(),'{}_{}.jpg'.format(token_hex(8),count)))
-            count+=1
+            filename = '{}_{}.jpg'.format(token_hex(8),count)
+            file.save(os.path.join(os.getcwd(),filename))
+            count += 1
             message = file.filename
         try:
             message = jsonify(message)
@@ -162,7 +186,7 @@ def myapi():
         # }
         intent_name = intent['displayName']
         print('intent_name',intent_name)
-
+        print('isHindi',isHindi)
         if intent_name=='loan':
             # pprint(dir(response))
             pass
@@ -171,12 +195,10 @@ def myapi():
             user_data['name']=response.query_result.output_contexts[-1].parameters['name']
 
         elif intent_name=='amount-1':
-            # TODO: Range check
             print('amount is',int(response.query_result.output_contexts[-1].parameters['amount']))
             user_data['loan_amt']=int(response.query_result.output_contexts[-1].parameters['amount'])
 
         elif intent_name=='loan period':
-            # TODO: Range check
             print('duration is',int(response.query_result.output_contexts[-1].parameters['duration']['amount']))
             user_data['loan_duration']=int(response.query_result.output_contexts[-1].parameters['duration']['amount'])
 
@@ -185,7 +207,6 @@ def myapi():
             user_data['email']=response.query_result.output_contexts[-1].parameters['email']
 
         elif intent_name=='pan':
-            # TODO: DB checks
             user_text = response.query_result.query_text
             pan = response.query_result.output_contexts[-1].parameters['pan']
             if pan=='':
@@ -197,23 +218,40 @@ def myapi():
             user_data['pan']=pan
 
         elif intent_name=='PAN pic upload':
-            pass
+            upload_pic(filename)
+            user_data['pan_photo'] = filename
+            os.remove(filename)
+
         elif intent_name=='Aadhar number':
-            # TODO: DB checks
             print('aadhar is',response.query_result.output_contexts[-1].parameters['aadhar'])
-            user_data['aadhar_no']=response.query_result.output_contexts[-1].parameters['aadhar']
+            user_data['aadhar_no'] = response.query_result.output_contexts[-1].parameters['aadhar']
+
         elif intent_name=='Aadhar pic front':
-            pass
+            upload_pic(filename)
+            user_data['aadhar_pic1'] = filename
+            os.remove(filename)
+
         elif intent_name=='Aadhar pic back':
-            pass
+            upload_pic(filename)
+            user_data['aadhar_pic2'] = filename
+            os.remove(filename)
+
         elif intent_name=='Loan approved - yes':
             pass
         elif intent_name=='Loan approved - no':
             pass
-        elif intent_name=='Bank details':
-            pass
 
-        if language_code == 'hi':
+        elif intent_name=='Bank details':
+            user_text = response.query_result.query_text
+            user_text = user_text.split('\n')
+            user_data['bank_acc']=user_text[0]
+            user_data['ifsc']=user_text[1]
+
+        pprint(user_data)
+        if intent_name != 'Default Fallback Intent':
+            db.collection('user_data').document(document_name).set(user_data)
+
+        if language_code == 'hi' or isHindi:
             for i in range(len(fulfillment_msg)):
                 fulfillment_msg[i]['text']['text'][0] = convert_to_hi(fulfillment_msg[i]['text']['text'][0])
             fulfillment_text = convert_to_hi(fulfillment_text)
