@@ -1,0 +1,189 @@
+body, .botui-container {
+  font-family: 'Buenard', serif;
+  font-size: large;
+}
+
+.botui-message-content.human{
+    background: #c72229;
+}
+
+.header, .footer{
+  position: fixed;
+  left: 0;
+  width: 100%;
+
+}
+
+.footer {
+  bottom: 0;
+  padding: 10px 5px;
+  background: #fff;
+  /* temp */
+  /* border: 2px solid red; */
+}
+
+.header {
+  top: 0;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  font-size: x-large;
+  background: #c72229;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.fa-robot, .fa-phone{
+  padding: 3px;
+}
+
+#my-botui-app {
+  padding-top: 40px;
+}
+
+.foot-less{
+  padding-bottom: 105px;
+}
+
+.yes-no{
+  padding: 20px;
+}
+
+#cam, #gallery{
+  background: #c72229;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.shrinkToFit{
+  /* max-width: 50%; */
+  transition: scale(0.00001);
+}
+
+label{
+  margin: 0;
+}
+
+#yes, #no{
+  border-radius: 20px;
+  background: #c72229;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.botui-actions-text{
+  position: fixed;
+  bottom: 0;
+}
+
+.card{
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  background: #c72229;
+}
+
+.amt-ip, .bank-ip{
+  margin: 10px;
+  font-size: small;
+}
+
+.bank-ip .card{
+    padding: 10px 20px;
+}
+
+.rt{
+  text-align: right;
+  float: right;
+}
+
+.amt-ip .container .row .col-3{
+  padding: 0;
+  margin: 0;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+.bank-ip input{
+    border: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 10px;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 0.8;
+}
+
+#text-ip{
+  padding: 0 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.fa-paper-plane, .prog-icons{
+  color: #c72229;
+}
+
+#send-dur{
+  color: #fff;
+  text-align: right;
+  padding: 20px;
+}
+
+.prog-img{
+  width: 70%;
+}
+
+.steps{
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+
+.progress{
+  margin-top: 5px;
+  height: 10px;
+}
+
+.progress-bar{
+  width: 1%;
+  background-color: #c72229;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Aditya Birla Capital</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    required for basic layout-->
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
+
+    <!--    default theme - you can create your own theme-->
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/loginpage.css') }}">
+</head>
+<body>
+
+    <img src="{{ url_for('static',filename='images/ABC_Birla.jpg') }}" class="img-fluid logo mx-auto d-block" alt="image">
+
+    <div class = "flex-container container">
+        <p class = "animated fadeIn">
+            Enter the OTP that was sent to your mobile number
+        </p>
+        <form action="/verify" method="post" class = "animated fadeIn">
+            <div class = "row justify-content-around" class = "flex">
+                <input type="text" placeholder="" maxlength="1" name="otp-1" value="" class = "otp-digit col-2">
+                <input type="text" placeholder="" maxlength="1" name="otp-2" value="" class = "otp-digit col-2">
+                <input type="text" placeholder="" maxlength="1" name="otp-3" value="" class = "otp-digit col-2">
+                  <input type="text" placeholder="" maxlength="1" name="otp-4" value="" class = "otp-digit col-2">
+            </div>
+            <div class = "submit-btn">
+                <input type="submit" name="" value="Verify OTP" class = "btn btn-warning btn-rounded">
+            </div>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark pt-4">
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center py-2">
+                <li class="list-inline-item px-2">
+                    <button type="button" class="btn btn-warning btn-rounded animated slideInLeft" onclick = "window.location.href='/'">Change number</button>
+                </li>
+                <li class="list-inline-item px-3">
+                    <button type="button" class="btn btn-warning btn-rounded animated slideInRight" onclick = "resendOtp()">Resend OTP</button>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!--    Vue - BotUI requires Vue to be present in page-->
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <!--    BotUI - main file-->
+    <script src="https://unpkg.com/botui/build/botui.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/otp.js') }}"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src=" {{ url_for('static', filename = 'js/keyboard.js')}}"></script>
+</body>
+</html>

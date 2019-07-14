@@ -9,7 +9,6 @@ Click==7.0
 cymem==2.0.2
 dialogflow==0.6.0
 emoji==0.5.2
-en-core-web-sm==2.1.0
 Faker==1.0.7
 firebase-admin==2.17.0
 Flask==1.0.3

@@ -1,0 +1,101 @@
+body {
+    background-color: #c72229;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+     font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    height: 120px;
+}
+
+.flex-container{
+    display: flex;
+    background: #e15158;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+  	height: 60%;
+    border-radius: 10px;
+  	position: absolute;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+
+  	margin: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.num-field{
+  width: 99%;
+  border: none;
+  border-bottom: 1px solid #D3D3D3;
+  text-align: center;
+  background: none;
+  color: #D3D3D3;
+}
+
+.submit-btn{
+  width: max-content;
+  margin: 20px auto;
+  display: block;
+}
+
+.list-inline-item .btn{
+    width: 100px;
+}
+
+.btn{
+   border-radius: 24px;
+   border: none;
+   background: #ed7229;
+   font-size: 1rem;
+}
+
+.btn a{
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.otp-digit{
+  /* width: 15%;
+  height: 15%; */
+  border: none;
+  border-radius: 6px;
+  /* margin: 0 6px; */
+  padding: 10px;
+  text-align: center;
+  background: #c72229;
+  color: #fff;
+}
+
+.page-footer{
+  position: absolute;
+  bottom: 0;
+    width: 100%;
+}
+
+ul{
+    display: block;
+    width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+input:invalid {
+    box-shadow:none;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Aditya Birla Capital</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Buenard|Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    required for basic layout-->
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
+
+    <!--    default theme - you can create your own theme-->
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/chat.css') }}">
+
+    <!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/slider.css') }}"> -->
+
+</head>
+<body>
+    <div class="foot-less">
+        <div class = "container header">
+          <div class="row">
+            <i class="fa fa-robot fa-lg col-3"></i>
+            <div class="col-6">Loan-er</div>
+            <i class="fa fa-phone fa-lg col-3" onclick="call()"></i>
+          </div>
+        </div>
+
+        <div id="my-botui-app">
+            <bot-ui></bot-ui>
+        </div>
+
+        <div class="container yes-no">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-4" id = "yes">
+               <i class="fa fa-thumbs-up fa-2x like"></i>
+            </div>
+            <div class="col-4" id = "no">
+               <i class="fa fa-thumbs-down fa-2x like"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- <button onclick="move()">Click Me</button> -->
+        <button type="button" class="btn btn-info btn-lg temp" data-toggle="modal" data-target="#terms">T&C's</button>
+        <div id="terms" class = "modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Terms and Conditions</h3>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-info btn-lg temp" data-toggle="modal" data-target="#faqs">FAQs</button>
+        <div id="faqs" class = "modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Frequently Asked Questions</h3>
+              </div>
+              <div class="modal-body">
+                <ol>
+                  <li>
+                    <b>Who can apply for the loans?</b>
+                    <br>
+                    Proprietorship, Partnership, Public and Private Limited Companies
+                  </li>
+                  <li>
+                    <b>How soon will I get the loan?</b>
+                    <br>
+                    A loan is generally disbursed within 7-10 working days after the submission of complete and correct documents.
+                  </li>
+                  <li>
+                    <b>What are my loan tenure options?</b>
+                    <br>
+                    ABFL provides both short term and long term loans based on the business requirement of the client. This may range from 3 months to 12 years.
+                  </li>
+                  <li>
+                    <b>How much processing fee would I have to pay?</b>
+                    <br>
+                    Processing fee will vary from customer to customer upto 2%.
+                  </li>
+                  <li>
+                    <b>What are my various loan repayment options?</b>
+                    <br>
+                    You can repay through RTGS, NACH or through a cheque favouring Aditya Birla Finance Limited.
+                  </li>
+                  <li>
+                    <b>Can I directly deposit / withdraw cash from the loan account?</b>
+                    <br>
+                    No, you cannot directly deposit / withdraw cash from the loan account. All transactions can be carried out only through cheque / ECS / NEFT / RTGS.
+                  </li>
+                  <li>
+                    <b>Can I apply for an overdraft facility?</b>
+                    <br>
+                    ABFL can help the customer avail Overdraft facility through its partner banks.
+                  </li>
+                  <li>
+                    <b>Can I prepay my loan? If yes, what are the charges involved?</b>
+                    <br>
+                    Yes, the loan can be prepaid. Please note that prepayment charges may be applicable.
+                  </li>
+                  <li>
+                    <b>Do I receive a tax benefit from the loan?</b>
+                    Interest paid on the loan is a tax deductible expense.
+                    <br>
+                  </li>
+                  <li>
+                    <b>Can I use the loan for any other purpose?</b>
+                    <br>
+                    Loans can be used only for the purpose mentioned in the offer document.
+                  </li>
+                  <li>
+                    <b>How can I pay the processing fee?</b>
+                    <br>
+                    You can pay the processing fee through cheque / NEFT / RTGS facility.
+                  </li>
+                </ol>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="slider-input">
+          <input type="range" min="1" max="100" name="" value="50" class = "amount-ip">
+          <p id = "val">0</p>
+        </div> -->
+
+        <!-- KD's code -->
+
+        <div class="amt-ip">
+          <div class="card">
+            <span class = "rt" id = "emi"></span>
+            <span class = "rt" id = "dur">Duration: 18 months</span><br>
+            <div class="slidecontainer">
+              <input type="range" min="12" max="36" value="18" class="slider" id="myRange">
+            </div>
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-3">
+                  12
+                </div>
+                <div class="col-3 rt">
+                  36
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <button type="button" class="btn btn-success rt" onclick = "send_duration()">Done</button>
+        </div>
+
+        <div class="bank-ip">
+          <div class="card">
+              <input type="text" placeholder="Bank Account number" id = "acc-no">
+              <input type="text" placeholder="IFSC Code" id = "ifsc">
+              <input type="text" placeholder="Account holder's name" id = "name">
+          </div>
+          <br>
+          <button type="button" class="btn btn-success rt" onclick = "send_bank()">Done</button>
+        </div>
+
+        <!-- KD's code ends -->
+
+        <!-- <input type="file" accept="image/*" capture="camera">
+        <input type="file" accept="image/*"> -->
+
+        <div class="container cam-gallery">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-4" id = "cam">
+              <label for="cam-hidden"><i class="fas fa-camera fa-2x"></i></label>
+              <input type="file" accept="image/*" capture="camera" id = "cam-hidden" oninput="cam_send()">
+            </div>
+            <div class="col-4" id = "gallery">
+              <label for="gallery-hidden"><i class="fas fa-images fa-2x"></i></label>
+              <input type="file" accept="image/*" id = "gallery-hidden" oninput="gallery_send()">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class = footer>
+      <div class="send-box">
+        <input type="text" id = "text-ip" placeholder = "Talk to Loan-er" value="">
+        <i class="fa fa-lg fa-paper-plane" id = "send-button"></i>
+      </div>
+      <!-- <img src="{{ url_for('static',filename='images/send-button.jpg') }}" id = "send-button"> -->
+      <div class="steps container">
+        <div class="row">
+          <div class="col-3">
+            <img src="{{ url_for('static',filename='images/rupee.png') }}" class = "prog-img">
+          </div>
+          <div class="col-3">
+            <img src="{{ url_for('static',filename='images/pan.png') }}" class = "prog-img">
+          </div>
+          <div class="col-3">
+            <img src="{{ url_for('static',filename='images/aadhar.png') }}" class = "prog-img">
+          </div>
+          <div class="col-3">
+            <img src="{{ url_for('static',filename='images/bank.png') }}" class = "prog-img">
+          </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+
+    </div>
+    <!--    Vue - BotUI requires Vue to be present in page-->
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+
+    <!--    BotUI - main file-->
+    <script src="https://unpkg.com/botui/build/botui.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/42475ddb8f.js"></script>
+
+    <script type="text/javascript" src=" {{ url_for('static', filename = 'js/chatpage.js')}}"></script>
+
+
+</body>
+</html>

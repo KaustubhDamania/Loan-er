@@ -1,2 +1,2 @@
-# abc-chatbot-backend
-The Flask server for the chatbot for ABC
+# abc_chatbot
+Chatbot for enhancing user experience of people looking to get a loan from Aditya Birla Capital
