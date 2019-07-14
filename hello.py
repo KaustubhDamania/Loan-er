@@ -524,25 +524,6 @@ def sms_reply():
         replace_text(r'XXXX',loaner,fulfillment_msg)
         replace_text(r'YY',user_data['loan_duration'],fulfillment_msg)
         replace_text(r'ZZZZ',calc_emi(user_data['loan_amt'],user_data['loan_duration']),fulfillment_msg)
-        # pattern = re.compile(r'XXXX')
-        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        # indices = indices[0]
-        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        # fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
-        #
-        # pattern = re.compile(r'YY')
-        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        # indices = indices[0]
-        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        # fulfillment_msg[0]['text']['text'][0] = first_part+str(user_data['loan_duration'])+latter_part
-        # pattern = re.compile(r'ZZZZ')
-        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        # indices = indices[0]
-        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        # fulfillment_msg[0]['text']['text'][0] = first_part+str(calc_emi(user_data['loan_amt'],user_data['loan_duration']))+latter_part
 
     elif intent_name=='Loan approved - yes':
         pass
