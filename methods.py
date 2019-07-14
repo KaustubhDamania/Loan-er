@@ -2,8 +2,13 @@ import dialogflow
 from emoji import emojize,demojize
 from langdetect import detect_langs
 import re
+from pprint import pprint
+from random import randint
+import smtplib
+from googletrans import Translator
 
 def pan_check(pan):
+    from hello import user_data
     if len(pan)!=10:
         return False
     if not pan[:3].isalpha():
@@ -50,6 +55,7 @@ def get_fulfillment_texts(message, project_id):
     return fulfillment_msg, new_arr, response
 
 def convert_to_hi(fulfillment_msg):
+    translator = Translator()
     fulfillment_msg = demojize(fulfillment_msg)
     fulfillment_msg = translator.translate(fulfillment_msg, src='en', dest='hi').text
     pattern = re.compile(r':(.*?):')
@@ -69,23 +75,23 @@ def convert_to_hi(fulfillment_msg):
 
     return fulfillment_msg
 
-def get_language_code(message):
-    from hello import isHindi
-    global isHindi
-    # if isHindi:
-    #     return 'hi'
-    language_code = 'en'
-    try:
-        languages = detect_langs(message)
-        languages = [item.lang for item in languages]
-        for lang in languages:
-            if lang in ['ne','mr','hi']:
-                language_code = 'hi'
-                isHindi = True
-                break
-    except Exception as e:
-        pass
-    return language_code
+# def get_language(message):
+#     from hello import isHindi
+#     # global isHindi
+#     # if isHindi:
+#     #     return 'hi'
+#     language_code = 'en'
+#     try:
+#         languages = detect_langs(message)
+#         languages = [item.lang for item in languages]
+#         for lang in languages:
+#             if lang in ['ne','mr','hi']:
+#                 language_code = 'hi'
+#                 isHindi = True
+#                 break
+#     except Exception as e:
+#         pass
+#     return language_code, isHindi
 
 def calc_emi(amount, duration):
     interest = duration - 2
@@ -117,7 +123,7 @@ def replace_text(pattern, replacement, fulfillment_msg):
     fulfillment_msg[0]['text']['text'][0] = first_part+str(replacement)+latter_part
 
 def get_user_data(response,intent_name,fulfillment_msg):
-    from hello import intent_name, filename, db
+    from hello import filename, db, user_data
 
     if intent_name=='loan':
         # pprint(dir(response))
