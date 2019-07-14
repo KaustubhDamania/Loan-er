@@ -91,6 +91,7 @@ from secrets import token_hex
 from google.cloud import firestore,storage
 from langdetect import detect_langs
 from googletrans import Translator
+from random import randint
 from twilio.twiml.messaging_response import MessagingResponse
 from emoji import emojize, demojize
 from datetime import timedelta
@@ -211,6 +212,15 @@ def upload_pic(pic_name):
     # return str(imageBlob.generate_signed_url(expiration=timedelta(hours=1),
                                             # method='GET'))
 
+def replace_text(pattern, replacement, fulfillment_msg):
+    # pattern = re.compile(r'XXXX')
+    pattern = re.compile(pattern)
+    indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+    indices = indices[0]
+    first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+    latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+    fulfillment_msg[0]['text']['text'][0] = first_part+str(replacement)+latter_part
+
 check=False
 @app.route('/myapi', methods=['POST'])
 def myapi():
@@ -325,34 +335,47 @@ def myapi():
             # upload_pic(filename)
             user_data['aadhar_pic2'] = filename
             # os.remove(filename)
-            pattern = re.compile(r'XXXX')
-            indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-            indices = indices[0]
             # credit_score = db.collection(u'credit_score_data').document(document_name).get().to_dict().get('credit_score')
             credit_ref = db.collection(u'credit_score_data')
-            query_result1 = credit_ref.where('pan',u'==',user_data['pan']).get()
-            for i in query_result1:
-                credit_score = i.to_dict()['credit_score']
+            credit_score = randint(0,900)
+            try:
+                query_result1 = credit_ref.where('pan',u'==',user_data['pan']).get()
+                for i in query_result1:
+                    credit_score = i.to_dict()['credit_score']
+            except Exception as e:
+                print('This is an Exception')
+                print(e)
+                print('End exception')
+
             if credit_score < 500:
                 loaner = 0
             else:
                 loaner = ((credit_score-500)/400)*int(user_data['loan_amt'])
-            first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-            latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-            fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
 
-            pattern = re.compile(r'YY')
-            indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-            indices = indices[0]
-            first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-            latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-            fulfillment_msg[0]['text']['text'][0] = first_part+str(user_data['loan_duration'])+latter_part
-            pattern = re.compile(r'ZZZZ')
-            indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-            indices = indices[0]
-            first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-            latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-            fulfillment_msg[0]['text']['text'][0] = first_part+str(calc_emi(user_data['loan_amt'],user_data['loan_duration']))+latter_part
+            print('LOLOLOL',fulfillment_msg)
+            replace_text(r'XXXX',loaner, fulfillment_msg)
+            replace_text(r'YY',user_data['loan_duration'], fulfillment_msg)
+            replace_text(r'ZZZZ',calc_emi(user_data['loan_amt'],user_data['loan_duration']), fulfillment_msg)
+            # pattern = re.compile(r'XXXX')
+            # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+            # indices = indices[0]
+            # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+            # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+            # fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
+            #
+            # pattern = re.compile(r'YY')
+            # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+            # indices = indices[0]
+            # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+            # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+            # fulfillment_msg[0]['text']['text'][0] = first_part+str(user_data['loan_duration'])+latter_part
+            #
+            # pattern = re.compile(r'ZZZZ')
+            # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+            # indices = indices[0]
+            # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+            # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+            # fulfillment_msg[0]['text']['text'][0] = first_part+str(calc_emi(user_data['loan_amt'],user_data['loan_duration']))+latter_part
 
         elif intent_name=='Loan approved - yes':
             pass
@@ -484,38 +507,42 @@ def sms_reply():
         # upload_pic(filename)
         user_data['aadhar_pic2'] = filename
         # os.remove(filename)
-        pattern = re.compile(r'XXXX')
-        indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        indices = indices[0]
         # credit_score = db.collection(u'credit_score_data').document(document_name).get().to_dict().get('credit_score')
         credit_ref = db.collection(u'credit_score_data')
+        credit_score = randint(0,900)
         try:
             query_result1 = credit_ref.where('pan',u'==',user_data['pan']).get()
             for i in query_result1:
                 credit_score = i.to_dict()['credit_score']
         except Exception as e:
             print(e)
-            credit_score = randint(0,900)
         if credit_score < 500:
             loaner = 0
         else:
             loaner = ((credit_score-500)/400)*int(user_data['loan_amt'])
-        first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
 
-        pattern = re.compile(r'YY')
-        indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        indices = indices[0]
-        first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        fulfillment_msg[0]['text']['text'][0] = first_part+str(user_data['loan_duration'])+latter_part
-        pattern = re.compile(r'ZZZZ')
-        indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
-        indices = indices[0]
-        first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
-        latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
-        fulfillment_msg[0]['text']['text'][0] = first_part+str(calc_emi(user_data['loan_amt'],user_data['loan_duration']))+latter_part
+        replace_text(r'XXXX',loaner,fulfillment_msg)
+        replace_text(r'YY',user_data['loan_duration'],fulfillment_msg)
+        replace_text(r'ZZZZ',calc_emi(user_data['loan_amt'],user_data['loan_duration']),fulfillment_msg)
+        # pattern = re.compile(r'XXXX')
+        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+        # indices = indices[0]
+        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+        # fulfillment_msg[0]['text']['text'][0] = first_part+str(loaner)+latter_part
+        #
+        # pattern = re.compile(r'YY')
+        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+        # indices = indices[0]
+        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+        # fulfillment_msg[0]['text']['text'][0] = first_part+str(user_data['loan_duration'])+latter_part
+        # pattern = re.compile(r'ZZZZ')
+        # indices = [m.span() for m in re.finditer(pattern,fulfillment_msg[0]['text']['text'][0])]
+        # indices = indices[0]
+        # first_part = fulfillment_msg[0]['text']['text'][0][:indices[0]]
+        # latter_part = fulfillment_msg[0]['text']['text'][0][indices[1]:]
+        # fulfillment_msg[0]['text']['text'][0] = first_part+str(calc_emi(user_data['loan_amt'],user_data['loan_duration']))+latter_part
 
     elif intent_name=='Loan approved - yes':
         pass
