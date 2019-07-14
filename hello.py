@@ -489,9 +489,13 @@ def sms_reply():
         indices = indices[0]
         # credit_score = db.collection(u'credit_score_data').document(document_name).get().to_dict().get('credit_score')
         credit_ref = db.collection(u'credit_score_data')
-        query_result1 = credit_ref.where('pan',u'==',user_data['pan']).get()
-        for i in query_result1:
-            credit_score = i.to_dict()['credit_score']
+        try:
+            query_result1 = credit_ref.where('pan',u'==',user_data['pan']).get()
+            for i in query_result1:
+                credit_score = i.to_dict()['credit_score']
+        except Exception as e:
+            print(e)
+            credit_score = randint(0,900)
         if credit_score < 500:
             loaner = 0
         else:
