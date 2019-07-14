@@ -139,11 +139,13 @@ $("#send-button").click(function(){
           human_txt(msg);
       }
       else{
+        human_txt(msg,false);
         bot_txt('Please enter a valid Aadhar');
       }
   }
   else if(ptr==2){
       if(parseInt(msg)<25000 || parseInt(msg)>1500000){
+          human_txt(msg,false);
           bot_txt('Sorry, but we only provide loans in the range Rs 25000 to 15 lakhs, please re-enter your amount.');
       }
       else{
@@ -152,6 +154,7 @@ $("#send-button").click(function(){
   }
   else if(ptr==5){
       if(!pan_check(msg)){
+          human_txt(msg,false);
           bot_txt('Please enter a valid PAN.');
       }
       else{
@@ -164,12 +167,13 @@ $("#send-button").click(function(){
 
 });
 
-function human_txt(msg){
+function human_txt(msg, send=true){
   botui.message.human({
     content: msg
   });
   //insert logic to send msg to dialogflow
-  send_to_server(msg);
+  if(send)
+    send_to_server(msg);
 
 }
 
