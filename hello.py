@@ -5,10 +5,8 @@ import urllib.parse
 import random
 import os
 import smtplib
-# import imghdr
 from email.message import EmailMessage
 from methods import *
-# from flask import Flask,render_template,request,jsonify,url_for
 from pprint import pprint
 import json
 import os
@@ -98,9 +96,6 @@ def verify_otp():
 def chat_interface():
     return render_template('chat.html')
 
-# app = Flask(__name__)
-# SECRET_KEY = os.urandom(32)
-# app.config['SECRET_KEY'] = SECRET_KEY
 translator = Translator()
 db = firestore.Client()
 document_name = token_hex(16)
@@ -265,16 +260,7 @@ def sms_reply():
 
     print(stri)
     resp.message(stri)
-    # resp.message("Hello me")
     return str(resp)
-
-# @app.route('/serviceworker.js', methods=['GET'])
-# def serviceworker():
-#     return app.send_static_file('serviceworker.js')
-
-# @app.route('/manifest.json', methods=['GET'])
-# def manifest():
-#     return app.send_static_file('manifest.json')
 
 @app.route('/<path:path>')
 def send_js(path):
