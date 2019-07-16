@@ -1,6 +1,7 @@
 __pycache__
 .env
 /*.json
+!manifest.json
 node_modules
 config.js
 serviceAccount.json

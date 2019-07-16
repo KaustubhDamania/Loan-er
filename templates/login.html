@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="../manifest.json">
+    <!-- <link rel="manifest" href="./manifest.json"> -->
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/loginpage.css') }}">
 </head>
 <body>
@@ -32,20 +33,20 @@
             </div>
         </form>
     </div>
+
     <script>
-    window.onload = function() {
-        if ('serviceWorker' in navigator) { // show other serviceworker in application tabs
-            try {
-                navigator.serviceWorker.register('../static/serviceworker.js');
-                console.log('SW registered');
-            } catch (error) {
-                console.log('SW failed');
-            }
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/serviceworker.js').then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope); },
+                    function(err) {
+                    // registration failed
+                    console.log('ServiceWorker registration failed: ', err);
+              });
+          });
         }
-        else{
-            console.log('SW didnt register');
-        }
-    }
     </script>
     <!--    Vue - BotUI requires Vue to be present in page-->
     <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>

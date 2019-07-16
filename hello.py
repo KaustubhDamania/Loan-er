@@ -1,4 +1,5 @@
 from flask import Flask, redirect, url_for, request ,render_template, flash
+from flask import jsonify, make_response, send_from_directory
 import urllib.request
 import urllib.parse
 import random
@@ -7,6 +8,20 @@ import smtplib
 # import imghdr
 from email.message import EmailMessage
 from methods import *
+# from flask import Flask,render_template,request,jsonify,url_for
+from pprint import pprint
+import json
+import os
+import dialogflow
+from secrets import token_hex
+from google.cloud import firestore,storage
+from langdetect import detect_langs
+from googletrans import Translator
+from random import randint
+from twilio.twiml.messaging_response import MessagingResponse
+from emoji import emojize, demojize
+from datetime import timedelta
+import re
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']=os.path.join(os.getcwd(),'CABOT-50ba37921312.json')
 
@@ -82,21 +97,6 @@ def verify_otp():
 @app.route('/chat')
 def chat_interface():
     return render_template('chat.html')
-
-from flask import Flask,render_template,request,jsonify,url_for
-from pprint import pprint
-import json
-import os
-import dialogflow
-from secrets import token_hex
-from google.cloud import firestore,storage
-from langdetect import detect_langs
-from googletrans import Translator
-from random import randint
-from twilio.twiml.messaging_response import MessagingResponse
-from emoji import emojize, demojize
-from datetime import timedelta
-import re
 
 # app = Flask(__name__)
 # SECRET_KEY = os.urandom(32)
@@ -268,14 +268,17 @@ def sms_reply():
     # resp.message("Hello me")
     return str(resp)
 
-@app.route('/sw.js', methods=['GET'])
-def sw():
-    return app.send_static_file('serviceworker.js')
+# @app.route('/serviceworker.js', methods=['GET'])
+# def serviceworker():
+#     return app.send_static_file('serviceworker.js')
 
-@app.route('/manifest.json', methods=['GET'])
-def manifest():
-    return app.send_static_file('manifest.json')
+# @app.route('/manifest.json', methods=['GET'])
+# def manifest():
+#     return app.send_static_file('manifest.json')
 
+@app.route('/<path:path>')
+def send_js(path):
+    return send_from_directory('.', path)
 
 if __name__ == '__main__':
     app.run(debug = True)
