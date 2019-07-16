@@ -71,4 +71,4 @@
 
 ### Note
 
- This repository / project was a part of Code Adventure 2019 which secured a 1st position.
+ This repository / project was a part of Code Adventure 2019 which secured the 1st position.
