@@ -11,7 +11,7 @@
 
     <!--    default theme - you can create your own theme-->
     <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="../manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/loginpage.css') }}">
@@ -63,5 +63,6 @@
     <script type="text/javascript" src="{{ url_for('static', filename = 'js/otp.js') }}"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src=" {{ url_for('static', filename = 'js/keyboard.js')}}"></script>
+    <script type="text/javascript" src="../static/js/pwa.js"></script>
 </body>
 </html>
