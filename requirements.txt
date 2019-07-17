@@ -57,5 +57,6 @@ tqdm==4.32.2
 uritemplate==3.0.0
 urllib3==1.25.3
 wasabi==0.2.2
+twilio==6.29.1
 Werkzeug==0.15.4
 WTForms==2.2.1
