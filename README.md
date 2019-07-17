@@ -16,29 +16,49 @@
 
 > The current procedure for registering for an Unsecured Personal Loan for Aditya Birla Capital is to fill out a form on their website which is very boring.
 
-> So here comes Loan-er, a chatbot which would make this process interactive for the user.
+> So here comes Loan-er, a PWA chatbot which would make this process interactive for the user.
 
 > Also the user shouldn't be bound by the language they use to chat with Loan-er so Loan-er can also talk in Hindi! 🤩
 
 > One can add support for multiple languages by contributing towards improving Loan-er.
 
 ##### Web-App
-<div align = "center">
-<img src="./assets/placeholder.jpg" width=200px/>
-<br/><br/>
 
+<div align="center">
+<img src="./assets/login.png" width=200px/>
+<!-- <img src="./assets/otp.png" width=200px/> -->
+<br/><br/>
 </div>
+
+<div align="center">
+<img src="./assets/welcome.png" width=200px/>
+<img src="./assets/slider.png" width=200px/>
+<br/><br/>
+</div>
+
+
+<div align = "center">
+
+<img src="./assets/picker.png" width=200px/>
+<img src="./assets/hindi.png" width=200px/>
+<br/><br/>
+</div>
+
+<!-- <div align = "center">
+
+<br/><br/>
+</div> -->
 
 ##### WhatsApp
 <div align = "center">
-<img src="./assets/placeholder.jpg" width=200px/>
+<img src="./assets/whatsapp.jpeg" width=200px />
 <br/><br/>
 
 </div>
 
 ##### Facebook Messenger
 <div align = "center">
-<img src="./assets/placeholder.jpg" width=200px/>
+<img src="./assets/fb.jpeg" width=200px/>
 <br/><br/>
 
 </div>
@@ -57,6 +77,7 @@
 
 ------------------------------------------
 ### Contributing
+
  We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
 
 ------------------------------------------
@@ -69,6 +90,6 @@
 
 ------------------------------------------
 
-### Note
+### Recognition
 
  This repository / project was a part of Code Adventure 2019 which secured the 1st position.
