@@ -1,5 +1,5 @@
 from flask import Flask, redirect, url_for, request ,render_template, flash
-from flask import jsonify, make_response, send_from_directory
+from flask import jsonify, make_response, send_from_directory, session
 import urllib.request
 import urllib.parse
 import random
@@ -20,6 +20,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 from emoji import emojize, demojize
 from datetime import timedelta
 import re
+from uuid import uuid4
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']=os.path.join(os.getcwd(),'CABOT-50ba37921312.json')
 
@@ -94,6 +95,7 @@ def verify_otp():
 #the main chat interface
 @app.route('/chat')
 def chat_interface():
+    session['uid'] = uuid4()
     return render_template('chat.html')
 
 translator = Translator()
