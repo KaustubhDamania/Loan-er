@@ -8,7 +8,7 @@ import smtplib
 from googletrans import Translator
 
 def pan_check(pan):
-    from hello import user_data
+    from run import user_data
     if len(pan)!=10:
         return False
     if not pan[:3].isalpha():
