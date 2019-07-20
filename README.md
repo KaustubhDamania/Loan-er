@@ -81,7 +81,7 @@
 ------------------------------------------
 ### Contributing
 
- We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
+ We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](https://github.com/KaustubhDamania/Loan-er/blob/master/CONTRIBUTING.MD)
 
 ------------------------------------------
 ### Contributors
