@@ -39,7 +39,7 @@ headers = {
 #method to send otp
 @app.route('/resend-otp')
 def sendSMS():
-    #apikey = 'pIyBJ6pdYX8-bGlGy8HXMOL0FG6RGYRo4jZ6W1A0Qf'
+    #apikey = '<Enter your Textlocal API Key>'
     numbers = '91' + number
 
     #send no to db
@@ -47,7 +47,7 @@ def sendSMS():
     global otp
     #otp = str(random.randint(1000, 9999))
     print(otp)
-    otp = '4151'
+    otp = '4151'    #comment this after adding apikey
     #send otp to the Number
     '''data =  urllib.parse.urlencode({'apikey': apikey, 'numbers': numbers,
         'message' : "Your ABFL OTP is " + otp})
@@ -95,7 +95,8 @@ def verify_otp():
 #the main chat interface
 @app.route('/chat')
 def chat_interface():
-    session['uid'] = uuid4()
+    session['uid']=str(uuid4())
+    print("session['uid']", session['uid'])
     return render_template('chat.html')
 
 translator = Translator()
@@ -172,7 +173,7 @@ def myapi():
 
         # print('language',language_code,'translated_text',message)
 
-        fulfillment_text, fulfillment_msg, response = get_fulfillment_texts(message, project_id)
+        fulfillment_text, fulfillment_msg, response = get_fulfillment_texts(message, project_id, session['uid'])
         intent_name = response.query_result.intent
         intent = {
             "name": intent_name.name,
@@ -225,7 +226,7 @@ def sms_reply():
     if(num_media):
         msg="img.png"    #create reply
     # reply=fetch_reply(msg,phoneno)
-    reply,arr,response = get_fulfillment_texts(msg, os.getenv('DIALOGFLOW_PROJECT_ID'))
+    reply,arr,response = get_fulfillment_texts(msg, os.getenv('DIALOGFLOW_PROJECT_ID'), session['uid'])
     intent_name = response.query_result.intent
     intent = {
         "name": intent_name.name,

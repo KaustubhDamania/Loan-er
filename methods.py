@@ -23,9 +23,10 @@ def pan_check(pan):
         return False
     return True
 
-def get_fulfillment_texts(message, project_id):
+def get_fulfillment_texts(message, project_id, session_id):
     session_client = dialogflow.SessionsClient()
-    session = session_client.session_path(project_id, "unique")
+    print('inside function, session_id',session_id)
+    session = session_client.session_path(project_id, session_id) #"unique"
     if message:
         text_input = dialogflow.types.TextInput(text=message,
                                                 language_code='en')
@@ -76,7 +77,7 @@ def convert_to_hi(fulfillment_msg):
     return fulfillment_msg
 
 # def get_language(message):
-#     from hello import isHindi
+#     from run import isHindi
 #     # global isHindi
 #     # if isHindi:
 #     #     return 'hi'
@@ -202,17 +203,6 @@ def get_user_data(response,intent_name,fulfillment_msg):
         user_text = user_text.split('\n')
         user_data['bank_acc']=user_text[0]
         user_data['ifsc']=user_text[1]
-        EMAIL_ADDRESS = "codeadventurebot@gmail.com"
-        EMAIL_PASSWORD = "17110667071"
-        with smtplib.SMTP('smtp.gmail.com',587) as smtp:
-            smtp.ehlo()
-            smtp.starttls()
-            smtp.ehlo()
-            smtp.login(EMAIL_ADDRESS,EMAIL_PASSWORD)
-            subject="Congratulations! You have completed the loan process"
-            body="blah blah"
-            msg=f'Subject:{subject}\n\n{body}'
-            smtp.sendmail(EMAIL_ADDRESS,user_data['email'],msg)
 
     pprint(user_data)
     return user_data
