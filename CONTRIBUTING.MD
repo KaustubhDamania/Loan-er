@@ -5,7 +5,7 @@ Contributing Guidelines
 
 > To begin contributing have a look at the open issues.
 
-> To install this locally on your computer, clone the repository and then run the following commands: 
+> To install this locally on your computer, clone the repository and add your TextLocal API key in run.py then run the following commands: 
 ```
     pip install -r requirements.txt
     python run.py
