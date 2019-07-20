@@ -72,8 +72,11 @@
 - [ ] Support for more languages.
 - [ ] Use OCR to extract all details from user's PAN/Aadhar card.
 
+------------------------------------------
 
+### Note
 
+- The OTP feature doesn't work as of now, hence the OTP is hardcoded as 4151.
 
 ------------------------------------------
 ### Contributing
