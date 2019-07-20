@@ -77,7 +77,7 @@
 ### Note
 
 - The OTP feature doesn't work as of now, hence the OTP is hardcoded as 4151.
-
+- To run the source code locally, have a look [here](https://github.com/KaustubhDamania/Loan-er/blob/master/CONTRIBUTING.MD)
 ------------------------------------------
 ### Contributing
 
